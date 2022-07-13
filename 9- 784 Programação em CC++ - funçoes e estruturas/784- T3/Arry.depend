@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1656421166 source:c:\users\pc multimedia\onedrive - instituto do emprego e formação profissional\modulo-c\arry\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

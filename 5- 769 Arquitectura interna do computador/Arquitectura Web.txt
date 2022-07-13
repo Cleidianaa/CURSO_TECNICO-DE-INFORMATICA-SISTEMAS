@@ -1,0 +1,43 @@
+https://xpto.com/abc/xyz.html
+-----   -------- ------------
+ (1)       (2)       (3)
+
+
+
+
+
+
+
+URL = Uniform Resource Locator
+
+    = Protocolo       +     "End. Servidor Web"    +    Recurso
+          (1)                        (2)                  (3)
+      (https, http,
+       ftp, gopher, etc)
+
+
+Word Wide Web (Web / W3) 
+
+
+Cliente  : Aplicação de uma rede TCP/IP (Internet) que precisa
+           de serviços. No contexto da Web, o cliente mais utilizado 
+           é o Browser (Navegador). 
+
+Servidor : Aplicação (por norma, não tem interface com o utilizador) que
+           presta serviços aos clientes. No contexto, o servidor de 
+           serviços Web designa-se por Servidor Web.
+
+Internet : Conjunto de "máquinas" ligadas entre si através da
+           pilha de protocolos e serviços que designamos por
+           TCP/IP, e que utilizam endereços IP públicos.
+
+Endereço IP : Número que identifica uma máquina numa rede TCP/IP.
+              (ex: 10.15.178.3, 66.44.1.17, 192.168.1.1)
+
+TCP/IP  : Utilizado em Internet mas também em LANs.
+
+HTML : HyperText Markup Language
+
+CSS  : Cascading StyleSheets
+
+ 

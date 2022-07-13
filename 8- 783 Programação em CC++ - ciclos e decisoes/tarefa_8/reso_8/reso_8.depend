@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1655450745 source:c:\users\pc multimedia\onedrive - instituto do emprego e formação profissional\modulo-c\tarefa_8\reso_8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<time.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1656276567 source:c:\users\pc multimedia\onedrive - instituto do emprego e formação profissional\modulo-c\funcoes_estruturas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
