@@ -33,6 +33,7 @@ main(){
 		printf("\n5 - Mostrar a(s) nota(s) mais alta(s)");
 		printf("\n6 - Mostrar os aprovados (nota >=10)");
 		printf("\n7 - Mostrar os reprovados (nota <10)");
+		printf("\n8 - Mostart em  Ordem Crescente as notas");
 		printf("\n0 - Sair");
 		printf("\n\nDigite a sua opção:");
 		scanf("%i",&opcao);
@@ -60,6 +61,9 @@ main(){
 				break;
             case 7:
 				MostrarReprovados(array);
+				break;
+            case 8:
+				MostrarCrescente(array);
 				break;
 			default:
 				printf("\nOpção inválida.");
@@ -98,11 +102,11 @@ void EscreverValores(float v[]){
 // 3 - Mostrar a média das notas
 void MostrarMedia(float v[]){
     printf("*** MOSTRAR MÉDIA ***\n");
-	float total= 0;
+	float soma= 0;
 	for(int i= 0; i< 10; i++){
-		total +=v[i];
+		soma +=v[i];
 	}
-    printf("Média: %.2f \n", total/10);
+    printf("Média: %.2f \n", soma/10);
 	system("pause");
 }
 
@@ -113,16 +117,15 @@ void AlterarNota(float v[]){
 	printf("\nDigite o aluno:");
 	scanf("%i",&num);
 
-    if (num>= 1 && num<= 10)
-    {
-        int valido = 0;
+    if (num>= 1 && num<= 10){
+        int valido= 0;
 		do{
             printf("As notas situam-se entre 0 e 20.\n");
 		    printf("\nDigite a nova nota: ");
             scanf("%f",&v[num-1]);
 
             if(v[num-1] >= 0 && v[num-1] <= 20){
-                valido = 1;
+                valido= 1;
             }
             else{
                 printf("Nota Inválida \n");
@@ -139,11 +142,9 @@ void AlterarNota(float v[]){
 void MaiorNota(float v[]){
     printf("*** MAIOR NOTA ***\n");
     float maior= 0;
-	for(int i = 0; i < 10; i++)
-    {
-		if(v[i] > maior)
-        {
-            maior = v[i];
+	for(int i = 0; i < 10; i++){
+		if(v[i] > maior){
+            maior= v[i];
         }
 	}
 	for(int i= 0; i< 10; i++){
@@ -157,11 +158,9 @@ void MaiorNota(float v[]){
 void MostrarAprovados(float v[]){
     printf("*** MOSTRAR OS APROVADOS ***\n");
 
-	for(int indice = 0; indice < 10; indice++)
-    {
-		if(v[indice] >= 10)
-        {
-            printf("\n%iª aluno: %.2f - APROVADO\n",(indice+1),v[indice]);
+	for(int i= 0; i< 10; i++){
+		if(v[i] >= 10){
+            printf("\n%iª aluno: %.2f - APROVADO\n",(i+1),v[i]);
         }
 	}
 
@@ -180,3 +179,22 @@ void MostrarReprovados(float v[]){
 	system("pause");
 }
 
+// 8 - Ordenar em Cresente as notas
+void MostrarCrescente(float array[]){
+    printf("*** NOTAS ORDENADAS CRESENTE ***\n");
+    float resto;
+    for(int j= 0; j< 10; j++){
+        for(int i= j + 1; i< 10; i++){
+          if(array[i] < array[j]){
+            resto=array[i];
+            array[i]=array[j];
+            array[j]=resto;
+          }
+        }
+    }
+    for(int i= 0; i< 10; i++){
+		printf("\n%iª Nota: %.2f\n",(i+1),array[i]);
+	}
+
+    system("pause");
+}
