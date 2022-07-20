@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1658341042 source:c:\users\pc multimedia\onedrive - instituto do emprego e formação profissional\modulo-c\784_t7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<time.h>
+
