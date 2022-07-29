@@ -1,0 +1,10 @@
+
+// explicação da aula de 792-Criação de Páginas para a Web
+
+
+
+HTML é o pai do HEAD e do BODY , já o P e filho do BODY
+
+
+elementos não vazio : elementos com descendentes e , portanto , com etiquetas(tags) de abertura e de fecho. 
+
