@@ -1,22 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace _785_App04
-{
-    internal static class Program
-    {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        [STAThread]
-        static void Main()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5890a064b71a3def5efe0ab114957f71535ac56d5aa5cc35936167b829f0651
+size 520

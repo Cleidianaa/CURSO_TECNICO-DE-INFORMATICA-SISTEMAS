@@ -1,6 +1,3 @@
-# depslib dependency file v1.0
-1656507691 source:c:\users\pc multimedia\onedrive - instituto do emprego e formação profissional\modulo-c\array1\main.c
-	<stdio.h>
-	<stdlib.h>
-	<locale.h>
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:05f727759a712c2f5036f591757544cf2a06b5d08c11ff45f4de5471d6eecd6c
+size 187

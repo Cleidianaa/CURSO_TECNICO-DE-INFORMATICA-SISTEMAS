@@ -1,16 +1,3 @@
-#include<stdio.h>
-#include<locale.h>
-#include<stdlib.h>
-
-/*Exercício 1
-Faça um programa que mostre no e crãos números naturais entre 0 (zero) e 100.
- Crie três   versões   desse   programa,   cada   uma   usando   uma   estrutura   de   repetição diferente.*/
-
- int main(){
-    setlocale(LC_ALL,"Portuguese");
-        float num=0;
-        while (num<=100){
-        printf("\n Números Naturais %.0f",num,pow(num,1));
-        num++;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a7c6560021c2ce1be9592878cfced9c7bfdbcab92fd8fae82eb5418079fb136
+size 439

@@ -1,28 +1,3 @@
-{
-    "tasks": [
-        {
-            "type": "cppbuild",
-            "label": "C/C++: gcc.exe arquivo de build ativo",
-            "command": "C:\\Program Files\\MinGW\\bin\\gcc.exe",
-            "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "detail": "Tarefa gerada pelo Depurador."
-        }
-    ],
-    "version": "2.0.0"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1f49b4641c497908fbd42160cec940512ddd4e5093752346ffc34ea69345595
+size 755

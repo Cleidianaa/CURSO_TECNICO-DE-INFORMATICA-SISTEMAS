@@ -1,12 +1,3 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
-    <RootNamespace>_785_App1</RootNamespace>
-    <Nullable>enable</Nullable>
-    <UseWindowsForms>true</UseWindowsForms>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
-
-</Project>
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7e965b29b3d41d324016ca846d3bf40cbc2ad03af427dd92fca5001d0dcf57d
+size 341

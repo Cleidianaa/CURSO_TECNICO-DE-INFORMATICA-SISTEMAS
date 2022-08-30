@@ -1,11 +1,3 @@
-C:\Users\PC Multimedia\OneDrive - Instituto do Emprego e Formação Profissional\TECNICOA DE INFORMATICA – SISTEMAS\10- 785 Programação em C#++ - formas complexas\785_App04\785_App04\bin\Debug\785_App04.exe.config
-C:\Users\PC Multimedia\OneDrive - Instituto do Emprego e Formação Profissional\TECNICOA DE INFORMATICA – SISTEMAS\10- 785 Programação em C#++ - formas complexas\785_App04\785_App04\bin\Debug\785_App04.exe
-C:\Users\PC Multimedia\OneDrive - Instituto do Emprego e Formação Profissional\TECNICOA DE INFORMATICA – SISTEMAS\10- 785 Programação em C#++ - formas complexas\785_App04\785_App04\bin\Debug\785_App04.pdb
-C:\Users\PC Multimedia\OneDrive - Instituto do Emprego e Formação Profissional\TECNICOA DE INFORMATICA – SISTEMAS\10- 785 Programação em C#++ - formas complexas\785_App04\785_App04\obj\Debug\785_App04.csproj.AssemblyReference.cache
-C:\Users\PC Multimedia\OneDrive - Instituto do Emprego e Formação Profissional\TECNICOA DE INFORMATICA – SISTEMAS\10- 785 Programação em C#++ - formas complexas\785_App04\785_App04\obj\Debug\785_App04.csproj.SuggestedBindingRedirects.cache
-C:\Users\PC Multimedia\OneDrive - Instituto do Emprego e Formação Profissional\TECNICOA DE INFORMATICA – SISTEMAS\10- 785 Programação em C#++ - formas complexas\785_App04\785_App04\obj\Debug\_785_App04.Form1.resources
-C:\Users\PC Multimedia\OneDrive - Instituto do Emprego e Formação Profissional\TECNICOA DE INFORMATICA – SISTEMAS\10- 785 Programação em C#++ - formas complexas\785_App04\785_App04\obj\Debug\_785_App04.Properties.Resources.resources
-C:\Users\PC Multimedia\OneDrive - Instituto do Emprego e Formação Profissional\TECNICOA DE INFORMATICA – SISTEMAS\10- 785 Programação em C#++ - formas complexas\785_App04\785_App04\obj\Debug\785_App04.csproj.GenerateResource.cache
-C:\Users\PC Multimedia\OneDrive - Instituto do Emprego e Formação Profissional\TECNICOA DE INFORMATICA – SISTEMAS\10- 785 Programação em C#++ - formas complexas\785_App04\785_App04\obj\Debug\785_App04.csproj.CoreCompileInputs.cache
-C:\Users\PC Multimedia\OneDrive - Instituto do Emprego e Formação Profissional\TECNICOA DE INFORMATICA – SISTEMAS\10- 785 Programação em C#++ - formas complexas\785_App04\785_App04\obj\Debug\785_App04.exe
-C:\Users\PC Multimedia\OneDrive - Instituto do Emprego e Formação Profissional\TECNICOA DE INFORMATICA – SISTEMAS\10- 785 Programação em C#++ - formas complexas\785_App04\785_App04\obj\Debug\785_App04.pdb
+version https://git-lfs.github.com/spec/v1
+oid sha256:4514504b44cb0ea7a5636e3bf59c820cc24585d03bc824126a8e7d413a595bf8
+size 2484

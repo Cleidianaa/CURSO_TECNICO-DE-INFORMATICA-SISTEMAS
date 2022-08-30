@@ -1,21 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <locale.h>
-
-/*
-Exercício 1
-Recorrendo à estrutura while
-crie um ciclo para escrever a seguinte sequência de números:
-2, 4, 6, 8, 10, 12, 14, 16, 18, 20
-*/
-
-main(){
-    setlocale(LC_ALL,"Portuguese");
-    int num=2;
-
-    while(num<=20){
-            printf("%d ",num);
-            num=num+2;
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a47a68d430aba34c5af29119d1df1e3ab09a9d6cb26a671fa3319eb3b057466e
+size 347

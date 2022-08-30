@@ -1,17 +1,3 @@
-namespace _785_App1
-{
-    internal static class Program
-    {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
-        [STAThread]
-        static void Main()
-        {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:752de14cfe252f8cce8deb737233dd9c95476f4dbed5f86b310d262fe4b190f5
+size 490

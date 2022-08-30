@@ -1,18 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-
-main() {
-	float area, base, altura;
-	printf("programa para calcular area do triagulo\n");
-	ffush(stdin);
-	printf("digite a base do triangulo: \(cm\)");
-	scanf("%f", &base);
-	ffush(stdin);
-	printf("digite a altura do triagulo \(cm\)");
-	scanf("%f", &altura);
-	area=(base*altura)/2;
-	printf("para um trinâgulo com base %.2f, sua area sera %.3f cm2.\n",base,altura,area);
-}
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:62f92999d37a47aed8d761123575450ca45b18242dec6f8cd95817bfcfd9a85d
+size 414
