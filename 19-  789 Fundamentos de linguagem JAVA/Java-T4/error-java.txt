@@ -1,0 +1,23 @@
+1- byte sizeof = 200; //errada Of e valor 
+
+2- short mom = 43; //errada espcaço e letra maiúscula 
+
+3- short hello mom; // errada : falta espaço e letra maiúscula 
+
+4- int big = sizeof * sizeof * sizeof; errada: não pode ser calculado sem número 
+
+
+5- long bigger = big + big + big //errada: não pode ser calculado sem número 
+
+6- double old = 78.0; // errada : é uma float
+
+7- double new = 0.1; // errada : é uma float
+
+8- boolean consequence = true; //certo
+
+9- boolean max = big > bigger; // errado : 
+
+10- char maine = "New England state"; // é uma string 
+
+11- char ming = 'd'; // certo
+

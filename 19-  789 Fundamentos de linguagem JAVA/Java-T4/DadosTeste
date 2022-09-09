@@ -1,0 +1,36 @@
+
+/*
+Exercício 3
+Escreva um programa Java para imprimir o resultado das seguintes 
+operações.
+Dados de teste:
+a. -5 + 8 * 6
+b. (55+9) % 9
+c. 20 + -3*5 / 8
+d. 5 + 15 / 3 * 2 - 8 % 3
+Saída esperada :
+43
+1
+19
+13
+*/
+
+public class DadosTeste {
+    public static void main (String []args){
+	int a,b,c,d;
+	a = -5 + 8 * 6;
+	b = (55+9) % 9;
+	c = 20 + -3*5 / 8;
+	d = 5 + 15 / 3 * 2 - 8 % 3;
+	
+	
+        System.out.println(" O Resultado de : -5 + 8 * 6 =  " + a); 
+
+	System.out.println("O Resultado de :(55+9) % 9 =  " + b); 
+
+	System.out.println("O Resultado de : 20 + -3*5 / 8  " + c); 
+
+	System.out.println("O Resultado de: 5 + 15 / 3 * 2 - 8 % 3  " + d); 
+
+    } 
+}
