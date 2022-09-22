@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas Flutuantes</title>
+    <style media="all" type="text/css"> 
+
+        #conteudo {
+            font-size: 11px;
+            font-family: Verdana, Geneva, Arial, sans-serif;
+            line-height: 14px;
+            background-color: #d5d5de;
+            text-align: left;
+            visibility: visible;
+            margin-top: 40px;
+            margin-right: auto;
+            margin-left: auto;
+            position: relative;
+            width: 700px;
+            height: 700px; 
+        }
+        #cabecalho {
+            position: relative;
+            text-align: center;
+            font-family: verdana, geneva, arial, sans-serif;
+            font-size: 42px;
+            font-weight: bold;
+            height: 40px;
+        }
+        #caixa1{
+            background-color: #f6f6b8; 
+            position: relative; 
+            height: 30px
+
+        }
+        #caixa2{
+            background-color: #c9ebe3; 
+            position: relative;
+            height: 50px; 
+            padding:10px
+        }
+        #caixa3{
+            background-color: #f6c3f6; 
+            position: relative; 
+            height: 50px; 
+            padding:10px; 
+            margin-top:10p;
+        }
+        #caixa4{
+            background-color: #c4ebc4; 
+            position: relative; 
+            height: 50px; 
+            padding:10px; 
+            margin-top:10px;
+        }
+        #caixa5{
+            background-color: #f6f6b8;
+            position: relative; 
+            padding: 10px;
+            margin-top: 10px;
+            width: 25%;
+            float: left;
+        }
+        #caixa6{
+            background-color: #c9ebe3;
+            position: relative; 
+            padding: 10px; 
+            margin-top: 10px; 
+            width: 40%; 
+            float: left; 
+            margin-left: 10px; 
+            margin-bottom: 10px; 
+        }
+        #caixa7{
+            background-color: #f6c3f6;
+            position: relative; 
+            padding: 10px; 
+            margin-top: 10px; 
+            width: 20%; 
+            margin-left: 10px; 
+            float: left;
+        }
+        #caixa8{
+            background-color: #cccccc; 
+            position: relative; 
+            padding: 10px; 
+            border-color: #666; 
+            border-width: 3px; 
+            border-style: double; 
+            clear: left; 
+        }
+        
+        #caixa9 {
+            background-color: transparent;
+            position: relative;
+            padding: 20px;
+            text-align: center
+        }
+                               
+    </style>
+</head>
+<body>
+    <div id="cabecalho">
+        Caixas Flutuantes
+    </div>
+    <div id="conteudo">
+        
+        <div id="caixa1">
+            background-color: #f6f6b8; 
+            position: relative; 
+            height: 30px
+        </div>
+
+        <div id="caixa2">
+            background-color: #c9ebe3; 
+            position: relative;
+            height: 50px; 
+            padding:10px
+        </div>
+
+        <div id="caixa3">
+            background-color: #f6c3f6; 
+            position: relative; 
+            height: 50px; 
+            padding:10px; 
+            margin-top:10px
+        </div>
+
+        <div id="caixa4">
+            background-color: #c4ebc4; 
+            position: relative; 
+            height: 50px; 
+            padding:10px; 
+            margin-top:10px
+        </div>
+
+        <div id="caixa5">
+            background-color: #f6f6b8;
+            <br>
+            position: relative; 
+            <br>
+            padding: 10px; 
+            <br>
+            margin-top: 10px; 
+            <br>
+            width: 25%; 
+            <br>
+            float: left; 
+        </div>
+
+        <div id="caixa6">
+            background-color: #c9ebe3;
+            <br>
+            position: relative; 
+            <br>
+            padding: 10px; 
+            <br>
+            margin-top: 10px; 
+            <br>
+            width: 40%; 
+            <br>
+            float: left; 
+            <br>
+            margin-left: 10px; 
+            <br>
+            margin-bottom: 10px; 
+        </div>
+
+        <div id="caixa7">
+            background-color: #f6c3f6;
+            <br>
+            position: relative; 
+            <br>
+            padding: 10px; 
+            <br>
+            margin-top: 10px; 
+            <br>
+            width: 20%; 
+            <br>
+            margin-left: 10px; 
+            <br>
+            float: left; 
+        </div>
+
+        <div id="caixa8">
+            background-color: #cccccc; 
+            position: relative; 
+            padding: 10px; 
+            border-color: #666; 
+            border-width: 3px; 
+            border-style: double; 
+            clear: left;
+        </div>
+
+        <div id="caixa9">
+            Na caixa em cima, utilizamos
+            <strong>
+             clear: left
+            </strong>
+            para cancelar o efeito <em>lado-a-lado</em> da propriedade
+            <strong>float</strong> da caixa anterior. Isto garante que a 
+            caixa em cima fica por baixo da caixa mais alta antes dela. 
+        </div>
+    </div>
+</body>
+</html>
