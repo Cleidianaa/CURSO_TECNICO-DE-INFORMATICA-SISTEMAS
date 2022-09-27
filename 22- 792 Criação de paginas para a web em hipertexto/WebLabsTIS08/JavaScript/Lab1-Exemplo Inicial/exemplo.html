@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>O Número Mágico</title>
+    <link rel="stylesheet" href="exemplo.css" type="text/css" media="screen">
+    <script  type="text/javascript" src="exemplo.js"></script>
+       
+</head>
+<body>
+    <div id="dados-jogo">
+        <form name="dados_pessoais" action="" method="">
+            <fieldset>
+                <legend>Adivinhe o Número Mágico</legend>
+                <div class="item">
+                    <label for="nome">O seu nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="item">
+                    <label for="numero">Número</label>
+                    <input type="text" name="numero" id="numero" required>
+                </div>
+                <input type="button" value="Adivinhar!" id="adivinhar" onclick="verificaResultado();">
+                
+            </fieldset>
+        </form>
+        <div id="resultado" onclick="voltaATentar();">
+        </div>
+    </div>
+    
+</body>
+</html>

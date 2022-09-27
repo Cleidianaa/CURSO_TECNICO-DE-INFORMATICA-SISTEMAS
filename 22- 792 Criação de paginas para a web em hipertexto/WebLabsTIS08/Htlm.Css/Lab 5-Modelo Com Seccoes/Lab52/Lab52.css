@@ -1,0 +1,59 @@
+body{
+    background-color: #e6e6d9;
+    font-size: small;
+    height: 180%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0; 
+}
+#cabecalho{
+    background-color: #c7c8bc;
+    text-align: center;
+    position: relative;
+    height: 68px;
+}
+.barra-nav{
+    color: white;
+    background-color:  #6b6c5a;
+    font-size: x-small;
+    text-align: center;
+    height: 1.4em;
+    line-height: 1.4em;
+    letter-spacing: 5px;
+}
+#barra-nav-sup{
+   margin-bottom: 2em;
+}
+#rodape{
+    margin-top: 2em;
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited {
+    color:inherit;
+}
+a:hover{
+    color: #fc0;
+}
+#logo{
+    margin: 0 2em 2em 20%;
+    /*margin-left: 2em;
+    margin-right: 2em%;
+    margin-bottom: 0;
+    margin-top: 0;*/
+    height: 95px;
+}
+#conteudo{
+    background-color: #6b6c5a , transparent;
+    margin: 0 20% 0 25%;
+   /* margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 0;
+    margin-top: 0;*/
+}
+#conteudo-imagem1{
+    float: right;
+}
+
+

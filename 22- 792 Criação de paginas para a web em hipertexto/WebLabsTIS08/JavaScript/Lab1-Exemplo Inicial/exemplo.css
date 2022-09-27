@@ -1,0 +1,87 @@
+body {
+    font: bold medium Arial, sans-serif;
+    background-color: #252E37; /*#39414A;  37 46 55*/
+}
+
+#dados-jogo, #resultado {
+    text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+    
+#dados-jogo {
+    width: 75%;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 3em auto 0 auto;
+    color: white;
+    padding: 1em;
+    background-color: #9EA4A9; 
+}
+    
+#resultado {
+    background-color: #0F1923; 
+    color: #0F67A1;
+    font: bold italic x-large Tahoma, Arial, sans-serif;
+    margin-top: 0.5em;
+    padding: 2em 0 2em 0; 
+     display: none; 
+     visibility: hidden; 
+}
+    
+.item {
+    margin: 1em;
+    text-transform: capitalize;
+    text-align: left;
+    height: 2em;
+}
+    
+legend {
+    color: #0F67A1; 
+    font: bold 1.2em Tahoma, Arial, sans-serif;
+}
+    
+label {
+    display: block;
+    float: left;
+    width: 9em;
+    padding-top: 0.25em;
+    padding-right: 1em;
+    text-align: right;
+}
+    
+input[type="text"] {
+    height: 1.8em;
+    width: 20em;
+    padding-left: 0.5em;
+    border: solid 0.2em #85B1DE;
+    border-radius: 4px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    
+}
+
+input[type="button"] {
+	display: block;
+	border: none;
+    height: 2.5em;
+    width: 10em;
+    margin-left: 32%;
+    margin-top: 20px;
+    border: 2px solid #0F67A1;
+    border-radius: 6px;
+    background: transparent;
+    text-transform: uppercase;
+    color: #0F67A1; 
+    transition-duration: 0.6s;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+input[type="button"]:hover {
+      background-color: #0F67A1;
+      color: white;
+ }
+    
+    

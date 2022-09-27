@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jantar de Amigos</title>
+    <link rel="stylesheet" href="jantar.css" type="text/css">
+    <script src="jantar.js" defer></script>
+</head>
+<body>
+    <!--
+        Alterado a partir do modelo em 
+        https://colorlib.com/wp/template/colorlib-contact-form/ 
+    -->
+    <div class="container">  
+        <form id="contact" action="">
+            <h3>Calculadora do preço do Jantar</h3>
+            <h4>Preencha os seguintes campos</h4>
+            <fieldset>
+                <label>Quantas pessoas?</label>
+                <input id="partySize" type="number" min="1" value="1"
+                        tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <label>Preço por pessoa? (€) </label>
+                <input id="singlePrice" type="number" min="1" value="15"
+                        tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <label>Taxa de IVA? (%)</label>
+                <input id="vatRate" type="number" min="0" max="100" value="13"
+                        tabindex="3" required>
+            </fieldset>
+            <fieldset>
+                <label>Gorjeta? (%)</label>
+                <input id="tipRate" type="number" min="0" max="100" value="10"
+                        tabindex="4" required>
+            </fieldset>
+            <fieldset>
+                <div id="totalPanel" class="outputPanel"></div>
+            </fieldset>
+            <fieldset>
+                <button name="computeTotal" id="computeTotal" type="button"
+                    >Calcular</button>
+            </fieldset>
+            <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+        </form>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: grey;
+    background-image: url(/half_moon.png) ;
+    background-repeat: no-repeat;
+    
+}
+
+/*   container    */
+ .container{
+    width: 1170px;
+    height: 100%;
+    background-color: rgba(243, 230, 155, 0.356);
+    margin: auto;
+    position: relative;
+ }
+
+/*   inicio Menu  Cabeçalho    */
+
+#conteudo{
+    background-color: rgba(153, 153, 248, 0.356);
+    max-width: 1170px;
+    height: 200px;
+    display: flex;
+    
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightskyblue;
+    width: 1100px;
+    height: 100px;
+    margin: 80px auto;
+}
+#box-header, #h1-header{
+    margin-left: 120px;
+    
+}
+#nav-menus{
+    display: flex;
+    justify-content: space-around;
+    background-color: maroon;
+    width: 400px;
+    height: 100px;
+
+}
+#nav-menus{
+    display: flex;
+    justify-content: space-around;
+}
+nav, #nav-menus, li a{
+    background-color: mediumpurple;
+    padding: 20px;
+    text-decoration: none;
+}
+
+/*  Ínicio da Área de Conteúdos  */
