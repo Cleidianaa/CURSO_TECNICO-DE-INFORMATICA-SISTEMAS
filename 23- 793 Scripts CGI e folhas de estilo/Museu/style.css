@@ -5,6 +5,8 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Poppins:ital,wght@0,400;0,600;0,700;1,200&display=swap');
 
+
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: black;
@@ -42,9 +44,13 @@ body{
     margin: 80px auto;
 }
 #box-header, #h1-header{
-    
-    
+    font-style: normal;
+    color: rgb(247, 0, 0); 
 }
+#box-header, #h4-header{
+    font-style: italic;
+}
+
 #nav-menus{
     display: flex;
     justify-content: space-around;
@@ -57,9 +63,13 @@ body{
     display: flex;
     justify-content: space-between;
     
+    
 }
 nav, #nav-menus, li a{
-    
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    list-style-type: none;
     background-color: mediumpurple;
     padding: 20px;
 }
@@ -73,6 +83,31 @@ nav, #nav-menus, li a{
     margin: auto;
     display: flex;
     justify-content: space-between;
+}
+#box1-conteudo h1{
+    color: rgb(247, 0, 0);
+
+}
+#box1-conteudo h3{
+    color:grey ;
+    font-size: 12px;
+}
+#box1-conteudo h4{
+    color:grey ;
+    font-size: 12px;
+    padding:right;
+    
+    
+
+
+}
+
+#sub-menus a{
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+
+
 }
 
 /*  Ínicio do Menu Direito */
@@ -95,6 +130,7 @@ nav, #nav-menus, li a{
     align-items: center;
     
 }
+
 #pesquisa, .text{
     width: 150px;
 }
@@ -105,6 +141,7 @@ nav, #nav-menus, li a{
     width: 200px;
     height: 100vh;
 }
+
 
 
 /* Ínicio do Rodapé */
@@ -125,10 +162,20 @@ nav, #nav-menus, li a{
     height: 150px;
 
 }
+#box-rodape h1{
+    padding: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+#box-rodape p{
+    padding: 10px;
+    font-size: 12px;
+}
 
 footer{
     position: relative;
     text-align: center;
     font-style: italic;
+    font-size: 12px;
   
 }
