@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Poppins:ital,wght@0,400;0,600;0,700;1,200&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -11,37 +11,38 @@ body{
     color: grey;
     background-image: url(/half_moon.png) ;
     background-repeat: no-repeat;
-    
+    font-size: 14px;
 }
 
 /*   container    */
- .container{
+.container{
     width: 1170px;
     height: 100%;
     background-color: rgba(243, 230, 155, 0.356);
     margin: auto;
-    position: relative;
+    
  }
 
 /*   inicio Menu  Cabeçalho    */
 
 #conteudo{
     background-color: rgba(153, 153, 248, 0.356);
-    max-width: 1170px;
+    max-width: 800px;
     height: 200px;
     display: flex;
+    margin: auto;
     
 }
 #header{
     display: flex;
     justify-content: space-between;
     background-color: lightskyblue;
-    width: 1100px;
+    width: 800px;
     height: 100px;
     margin: 80px auto;
 }
 #box-header, #h1-header{
-    margin-left: 120px;
+    
     
 }
 #nav-menus{
@@ -54,12 +55,80 @@ body{
 }
 #nav-menus{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 nav, #nav-menus, li a{
+    
     background-color: mediumpurple;
     padding: 20px;
-    text-decoration: none;
 }
 
 /*  Ínicio da Área de Conteúdos  */
+
+
+#area-conteudo{
+    background-color: #c9ebe3;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*  Ínicio do Menu Direito */
+#box-central{
+    width: 600px;
+    padding-right: 40px;
+    text-align: justify;
+    
+}
+#Menu-direito{
+    background-color: #915b81;
+    width: 200px;
+    height: 100vh;
+    text-align: justify;
+    
+}
+#pesquisa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#pesquisa, .text{
+    width: 150px;
+}
+
+#box-direito{
+    background-color: khaki;
+    padding-left: 10px;
+    width: 200px;
+    height: 100vh;
+}
+
+
+/* Ínicio do Rodapé */
+
+#rodape{
+    background-color: lightgreen;
+    max-width: 800px;
+    height: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#box-rodape{
+    background-color: lightseagreen;
+    width: 250px;
+    height: 150px;
+
+}
+
+footer{
+    position: relative;
+    text-align: center;
+    font-style: italic;
+  
+}
