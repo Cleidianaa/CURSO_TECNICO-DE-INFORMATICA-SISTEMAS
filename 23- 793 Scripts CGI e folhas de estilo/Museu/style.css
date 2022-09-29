@@ -5,22 +5,20 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Poppins:ital,wght@0,400;0,600;0,700;1,200&display=swap');
 
-
-
 body{
     font-family: 'Poppins', sans-serif;
     background-color: black;
     color: grey;
     background-image: url(/half_moon.png) ;
     background-repeat: no-repeat;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /*   container    */
 .container{
     width: 1170px;
     height: 100%;
-    background-color: rgba(243, 230, 155, 0.356);
+    
     margin: auto;
     
  }
@@ -28,7 +26,7 @@ body{
 /*   inicio Menu  Cabeçalho    */
 
 #conteudo{
-    background-color: rgba(153, 153, 248, 0.356);
+    
     max-width: 800px;
     height: 200px;
     display: flex;
@@ -38,13 +36,15 @@ body{
 #header{
     display: flex;
     justify-content: space-between;
-    background-color: lightskyblue;
+    
     width: 800px;
     height: 100px;
-    margin: 80px auto;
+    margin: 100px auto;
 }
 #box-header, #h1-header{
-    font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 30px;
     color: rgb(247, 0, 0); 
 }
 #box-header, #h4-header{
@@ -54,7 +54,7 @@ body{
 #nav-menus{
     display: flex;
     justify-content: space-around;
-    background-color: maroon;
+    
     width: 400px;
     height: 100px;
 
@@ -66,19 +66,27 @@ body{
     
 }
 nav, #nav-menus, li a{
+    
     text-decoration: none;
     color: whitesmoke;
     font-weight: bold;
     list-style-type: none;
-    background-color: mediumpurple;
-    padding: 20px;
+        
+}
+
+ li a:hover{
+    background-color: red;
+    padding-top: 150px ;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 /*  Ínicio da Área de Conteúdos  */
 
 
 #area-conteudo{
-    background-color: #c9ebe3;
+    padding-top: 40px;
     max-width: 800px;
     margin: auto;
     display: flex;
@@ -91,14 +99,23 @@ nav, #nav-menus, li a{
 #box1-conteudo h3{
     color:grey ;
     font-size: 12px;
+    padding-top: 10px;
+    
 }
 #box1-conteudo h4{
     color:grey ;
     font-size: 12px;
-    padding:right;
-    
+    text-align: right;
+
     
 
+}
+h4 span {
+    color: rgb(247, 0, 0);
+}
+
+p span{
+    color: rgb(247, 0, 0);
 
 }
 
@@ -106,21 +123,25 @@ nav, #nav-menus, li a{
     font-weight: bold;
     color: whitesmoke;
     text-decoration: none;
+    padding: 30px 30px 30px 40px;
+    
 
 
 }
 
-/*  Ínicio do Menu Direito */
+
 #box-central{
     width: 600px;
     padding-right: 40px;
     text-align: justify;
     
 }
+
+/*  Ínicio do Menu Direito */
 #Menu-direito{
-    background-color: #915b81;
+    
     width: 200px;
-    height: 100vh;
+    height: 100%;
     text-align: justify;
     
 }
@@ -133,33 +154,76 @@ nav, #nav-menus, li a{
 
 #pesquisa, .text{
     width: 150px;
+    padding-left: 10px;
 }
 
 #box-direito{
-    background-color: khaki;
+   
     padding-left: 10px;
     width: 200px;
     height: 100vh;
 }
+#box-frase{
+    padding: 40px 10px;
+    
+    
 
+}
+#box-frase h1{
+    color: rgb(247, 0, 0);
+}
+
+
+#box-sitios {
+    padding: 40px 10px;
+}
+
+#box-sitios h1{
+    color: rgb(247, 0, 0);
+}
+#box-acontecimentos{
+    padding: 40px 10px;
+}
+#box-acontecimentos h1{
+    color: rgb(247, 0, 0);
+}
+
+#box-arquivos{
+    padding: 40px 10px;
+}
+#box-arquivos h1{
+    color: rgb(247, 0, 0);
+}
 
 
 /* Ínicio do Rodapé */
 
 #rodape{
-    background-color: lightgreen;
-    max-width: 800px;
+    background-color: rgb(44, 43, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: 180px;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
     
 }
+
+#rodapeCaixa{
+    
+    max-width: 800px;
+    height: 100%;
+
+
+}
+
 #box-rodape{
-    background-color: lightseagreen;
+    
     width: 250px;
     height: 150px;
+    margin-right: 15px;
+    margin-left: 15px;
 
 }
 #box-rodape h1{
@@ -171,11 +235,16 @@ nav, #nav-menus, li a{
     padding: 10px;
     font-size: 12px;
 }
+#box-rodape ul{
+    padding: 10px;
+    font-size: 12px;
+    color: rgb(247, 0, 0);
+}
+
 
 footer{
     position: relative;
     text-align: center;
-    font-style: italic;
     font-size: 12px;
   
 }
