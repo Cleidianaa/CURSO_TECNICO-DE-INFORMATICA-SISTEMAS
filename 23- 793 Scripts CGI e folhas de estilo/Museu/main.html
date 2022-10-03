@@ -5,15 +5,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--  inicio Menu  Cabeçalho -->
-    <section class="container">
+    <!--  --inicio Menu  Cabeçalho -->
+    <section id="container">
         
-        <div id="conteudo" >
-            <header id="header">
-                <div class="box-header">
-                    <h1 id="h1-header">história da </h1>
-                    <h1 id="h1-header">informática</h1>
-                    <h4 id="h4-header">desenhado por TMthree</h4>
+        <div id="conteudo" > 
+            <!-- ID Item que não se repetir é unico-->
+            <header id="header"> 
+                <div id="box-header"> 
+                    <h1 class="h1-header">história da </h1> 
+                    <!-- class se repete e pode ser definidos varias da mesmo forma.  que não se repetir é unico-->
+                    <h1 class="h1-header">informática</h1>
+                    <h4 class="h4-header">desenhado por TMthree</h4>
                 </div>
                 <div class="nav">
                     <ul id="nav-menus"> 
@@ -30,12 +32,13 @@
         <!--  Ínicio da Área de Conteúdos -->
         <section  id="area-conteudo">
             <div id="box-central">
-                <div id="box1-conteudo">
+                <div class="box1-conteudo">
                     <h1>hackerdom visto por eric s. raymond</h1>
-                    <h3>August 14, 2017</h3>
-                    <h4>Posted by <span>Alberto</span> </h4>
-                    
-                    <p>
+                    <div class="sub-titulo">
+                        <h3>August 14, 2017</h3>
+                        <h3>Posted by <span>Alberto</span> </h3>
+                    </div>
+                    <p class="text-paragrado">
                         Neste ensaio <strong>Eric S. Raymond,</strong> o ambiente o surgimento da cultura Hacker. O ambiente "retro chic" do
                         <span>justamente</span>, acompanhado por sons de jazz e blues, proprociona uma atmosfera agradável e intimista.
                         <br><br>
@@ -43,41 +46,45 @@
                         imperdiet est. Phasellus dapibus semper uma. Pellentesque ormare, orci in felis. In id eros. Suspendisse
                         lacus turpis, cursus egestas at sem.
                     </p>
-                    <div id="sub-menus">
+                    <div class="sub-menus">
                         <a href="#">Mais</a>
                         <a href="#">Comentários</a>
                     </div>
                 </div>
 
-                <div id="box2-conteudo">
+                <div class="box1-conteudo">
                     <h1>O nascimento do computador pessoal</h1>
-                    <h3>August 09, 2017</h3>
-                    <h4>Posted by <span>Alberto</span></h4>
-                    <p>
+                    <div class="sub-titulo">
+                        <h3>August 14, 2017</h3>
+                        <h3>Posted by <span>Alberto</span> </h3>
+                    </div>
+                    <p class="text-paragrado">
                         Sed lacus. Donec lectus. Nullam Pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum vel, tempor
                         at, verius non, purus. Mauris vitae nisl nec metus placerat consectetuer. Donec ipsum. Proin imperdiet est.
                         Phasellus <span>dapibus semper urna.</span>Pellentesque ornare, orci in consectetuer hendrerit, urna elit eleifend nunc,ut
                         consectetuer nisl felis as diam. Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus
                         egestas at sem. Mauris quam enim, molestie in, rhoncus ut, lobortis a est.
                     </p>
-                    <div id="sub-menus">
+                    <div class="sub-menus">
                         <a href="#">Mais</a>
                         <a href="#">Comentários</a>
                     </div>
                 </div>
 
-                <div id="box3-conteudo">
+                <div class="box1-conteudo">
                     <h1> a world wide web</h1>
-                    <h3>August 12, 2017</h3>
-                    <h4>Posted by <span>Alberto</span></h4>
-                    <p>
+                    <div class="sub-titulo">
+                        <h3>August 14, 2017</h3>
+                        <h3>Posted by <span>Alberto</span> </h3>
+                    </div>
+                    <p class="text-paragrado">
                         Sed lacus. Donec lectus. Nullam Pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum vel, tempor
                         at, verius non, purus. Mauris vitae nisl nec metus placerat consectetuer. Donec ipsum. Proin imperdiet est.
                         Phasellus <span>dapibus semper urna.</span>Pellentesque ornare, orci in consectetuer hendrerit, urna elit eleifend nunc,ut
                         consectetuer nisl felis as diam. Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus
                         egestas at sem. Mauris quam enim, molestie in, rhoncus ut, lobortis a est.
                     </p>
-                    <div id="sub-menus">
+                    <div class="sub-menus">
                         <a href="#">Mais</a>
                         <a href="#">Comentários</a>
                     </div>
@@ -87,7 +94,8 @@
 
                 <!--  Ínicio do Menu Direito-->
             <section id="Menu-direito">
-                <div id="pesquisa"><!--Caixa de Pesquisa-->
+                
+                <div class="pesquisa">
                     <input type="text" name="text" class="text">
                     <button class="btn">Go</button>
                 </div>
@@ -96,48 +104,48 @@
                         <h1>Frases</h1>
                         <p>Há 10 tipos de pessoas no mundo: as que sabem binário e as que não sabem... </p>
                     </div>
-                    <div id="box-sitios">
+                    <div class="Menu-box">
                         <h1>Sítios</h1>
-                        <p>
-                            Unix 
-                            Web Archive
-                            Internet
-                            Programação
-                            Computadores
-                            Inteligência Artificial
-                        </p>
+                        <ul class="menuDireito">
+                            <li><a href="#">Unix</a></li>
+                            <li><a href="#">Web Archive</a></li>
+                            <li><a href="#">Internet</a></li>
+                            <li><a href="#">Programação</a></li>
+                            <li><a href="#">Computadores</a></li> 
+                            <li><a href="#">Inteligência Artificial</a></li>
+                        </ul>
                     </div>
-                    <div id="box-acontecimentos">
+                    <div class="Menu-box">
                         <h1>Acontecimentos</h1>
-                        <p>
-                            Músicais
-                            Culturais   
-                            Espectáculos 
-                            Festas 
-                            Inaugurações
-                            Moda
-                        </p>
+                        <ul class="menuDireito">
+                            <li><a href="#">Músicais</a></li>
+                            <li><a href="#">Culturais</a></li>
+                            <li><a href="#">Espectáculos</a></li>
+                            <li><a href="#">Festas</a></li>
+                            <li><a href="#">Inaugurações</a></li>
+                            <li><a href="#">Moda</a></li>
+                        </ul>
                     </div>
-                    <div id="box-arquivos">
+                    <div class="Menu-box">
                         <h1>Arquivos</h1>
-                        <p>
-                            Aliquam libero
-                            Consectetuer adipiscing elit
-                            Metus aliquam pellentesque
-                            Suspendisse iaculis mauris
-                        </p>
+                        <ul class="menuDireito">
+                            <li><a href="#"> Aliquam libero</a></li>
+                            <li><a href="#">Consectetuer adipiscing elit</a></li>
+                            <li><a href="#">Metus aliquam pellentesque</a></li>
+                            <li><a href="#">Suspendisse iaculis mauris</a></li>
+                        </ul>
                     </div>
                 </div> 
             </section>
         </section>
             <!--  Fim do Menu Direito-->
-    
+    </section>
             <!-- Ínicio do Rodapé -->
         <div id="rodape">
             <div id="rodapeCaixa">
-                <div id="box-rodape">
+                <div class="box-rodape">
                     <h1>bem vindos</h1>
-                    <p>
+                    <p class="paragrado">
                         In posuere eleifend odio quisque semper augue mattis
                         wisi maecenas ligula. Donec leo, vivamus fermentum
                         nibh in augue praesent a lacus at urna congue returm.
@@ -145,9 +153,9 @@
                         rutrum id , congue, and nibh.
                     </p>
                 </div>
-                <div id="box-rodape">
+                <div class="box-rodape">
                     <h1>agradecimentos</h1>
-                    <p>
+                    <p class="paragrado">
                         Sed lacus. Donec lectus. Nullam pretium nibh ut
                         tupis. Nam bibendum. In nulla tortor, elementum
                         vel,tempor at, varius non, purus.Mauris vitae nisi
@@ -155,20 +163,20 @@
                         imperdiet est. Phasellus dapibus sempre urna.
                     </p>
                 </div>
-                <div id="box-rodape">
+                <div class="box-rodape">
                     <h1>ligações recomendadas</h1>
-                    <ul id="rodape-a">
-                        <li> Consectetuer adipiscing elit</li>
-                        <li> Metus aliquem pellentesque</li>
-                        <li> Suspendisse iaculis mauris</li>
-                        <li> Umanet non modestie semper</li>
-                        <li> Proin gravida orci porttitor</li>
+                    <ul >
+                        <li>Consectetuer adipiscing elit</li>
+                        <li>Metus aliquem pellentesque</li>
+                        <li>Suspendisse iaculis mauris</li>
+                        <li>Umanet non modestie semper</li>
+                        <li>Proin gravida orci porttitor</li>
                     </ul>
                 </div>
             </div>
         </div>
         <footer>COPYRIGHT&copy;2017 ALBERTO.COM.ALL RIGHTS RESERVED.DESENHADO POR </footer>
         <!-- Fim  do Rodapé -->
-    </section>
+    
 </body>
 </html>

@@ -1,3 +1,4 @@
+/*** Esta propriedade é para zera margin e paddign da nossa pagina, * é usando para pegar a tela toda.****/
 *{
     margin: 0;
     padding: 0;
@@ -11,23 +12,19 @@ body{
     color: grey;
     background-image: url(/half_moon.png) ;
     background-repeat: no-repeat;
-    font-size: 16px;
+    font-size: 12px;
 }
 
-/*   container    */
-.container{
+/***** container  uma caixa que pega o conteudo da página ****/
+#container{
     width: 1170px;
-    height: 100%;
-    
     margin: auto;
-    
  }
 
-/*   inicio Menu  Cabeçalho    */
+/****** inicio  do Menu  Cabeçalho ****/
 
 #conteudo{
-    
-    max-width: 800px;
+    max-width: 700px;
     height: 200px;
     display: flex;
     margin: auto;
@@ -36,45 +33,36 @@ body{
 #header{
     display: flex;
     justify-content: space-between;
-    
-    width: 800px;
+    width: 700px;
     height: 100px;
     margin: 100px auto;
 }
-#box-header, #h1-header{
+#box-header .h1-header{
   font-family: Arial, Helvetica, sans-serif;
-    
     font-size: 30px;
     color: rgb(247, 0, 0); 
 }
-#box-header, #h4-header{
+#box-header, .h4-header{
     font-style: italic;
 }
 
 #nav-menus{
     display: flex;
     justify-content: space-around;
-    
     width: 400px;
     height: 100px;
-
 }
 #nav-menus{
     display: flex;
     justify-content: space-between;
-    
-    
 }
 nav, #nav-menus, li a{
-    
     text-decoration: none;
     color: whitesmoke;
     font-weight: bold;
-    list-style-type: none;
-        
+    list-style-type: none;   
 }
-
- li a:hover{
+#nav-menus li a:hover{
     background-color: red;
     padding-top: 150px ;
     padding-left: 10px;
@@ -82,8 +70,11 @@ nav, #nav-menus, li a{
     padding-right: 10px;
 }
 
-/*  Ínicio da Área de Conteúdos  */
 
+
+
+
+/****** Ínicio da Área de Conteúdos *****/
 
 #area-conteudo{
     padding-top: 40px;
@@ -92,159 +83,194 @@ nav, #nav-menus, li a{
     display: flex;
     justify-content: space-between;
 }
-#box1-conteudo h1{
+.box1-conteudo h1{
     color: rgb(247, 0, 0);
-
+    font-size: 20px;
 }
-#box1-conteudo h3{
+.box1-conteudo .sub-titulo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.box1-conteudo h3{
     color:grey ;
-    font-size: 12px;
+    font-size: 12px;  
+}
+h3 span {
     padding-top: 10px;
-    
-}
-#box1-conteudo h4{
-    color:grey ;
-    font-size: 12px;
-    text-align: right;
-
-    
-
-}
-h4 span {
     color: rgb(247, 0, 0);
 }
-
 p span{
+   
     color: rgb(247, 0, 0);
 
 }
 
-#sub-menus a{
+#box-central .box1-conteudo .text-paragrado{
+    line-height: 1.8em;
+    
+}
+.sub-menus{
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+}
+.sub-menus a{
     font-weight: bold;
     color: whitesmoke;
     text-decoration: none;
-    padding: 30px 30px 30px 40px;
-    
-
+    padding: 25px 25px 25px 30px;
 
 }
-
 
 #box-central{
     width: 600px;
     padding-right: 40px;
     text-align: justify;
-    
-}
+}  
 
-/*  Ínicio do Menu Direito */
+/*****  Fim da Área de Conteúdos *******/
+
+
+
+/*******  Ínicio do Menu Direito **********/
 #Menu-direito{
     
     width: 200px;
     height: 100%;
     text-align: justify;
+}
+.pesquisa{
+    display: flex;
+    width: 200px;
     
 }
-#pesquisa{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.pesquisa .text{
+    width: 158px;
+}
+.pesquisa .btn{
+    width: 40px;
+    margin-left: 2px;
     
 }
 
-#pesquisa, .text{
-    width: 150px;
-    padding-left: 10px;
-}
+/****** fim pesquisa ******/
+
 
 #box-direito{
    
-    padding-left: 10px;
     width: 200px;
     height: 100vh;
+    margin-left: 13px;
 }
-#box-frase{
-    padding: 40px 10px;
-    
-    
-
+#box-frase {
+    margin-top: 45px;
+    margin-bottom: 20px;
 }
 #box-frase h1{
     color: rgb(247, 0, 0);
+    font-size: 23px;
+    font-weight: 300;
 }
 
-
-#box-sitios {
-    padding: 40px 10px;
+#box-frase p{
+    margin-top: 15px;
+    line-height: 1.8em;
+}
+.Menu-box{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    
 }
 
-#box-sitios h1{
+.Menu-box h1{
     color: rgb(247, 0, 0);
-}
-#box-acontecimentos{
-    padding: 40px 10px;
-}
-#box-acontecimentos h1{
-    color: rgb(247, 0, 0);
-}
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 20px;
 
-#box-arquivos{
-    padding: 40px 10px;
-}
-#box-arquivos h1{
-    color: rgb(247, 0, 0);
 }
 
 
-/* Ínicio do Rodapé */
+.menuDireito  li {
+    margin-bottom: 25px;
+    list-style: none; 
 
+    
+}
+.menuDireito  li a {
+    padding-left: 10px ;
+    font-size: 12px;
+    color: gray;
+    
+}
+/**** Fim do Menu Direito *****/
+
+
+/***** Ínicio do Rodapé *******/
 #rodape{
     background-color: rgb(44, 43, 43);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 180px;
+    height: 200px;
     margin: auto;
-
-    
 }
 
 #rodapeCaixa{
-    
-    max-width: 800px;
-    height: 100%;
-
-
+    display: flex;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
 }
 
-#box-rodape{
-    
-    width: 250px;
-    height: 150px;
+.box-rodape{
+    width: 300px;
+    height: 180px;
     margin-right: 15px;
     margin-left: 15px;
+    padding-top: 10px;
+    font-size: 13px;
+    margin: 5px;
 
 }
-#box-rodape h1{
+#rodapeCaixa .box-rodape .paragrafo{
+    margin: 5px;
+}
+.box-rodape h1{
     padding: 5px;
     font-weight: bold;
     color: whitesmoke;
+    font-size: 23px;
+    
 }
-#box-rodape p{
-    padding: 10px;
-    font-size: 12px;
+.box-rodape .paragrado{
+    margin: 10px;
+    
 }
-#box-rodape ul{
+.box-rodape ul{
     padding: 10px;
     font-size: 12px;
     color: rgb(247, 0, 0);
+    list-style: none;
 }
-
+.box-rodape ul li{
+    margin: 5px;
+}
+.box-rodape ul li:before{/*colocar a bolinha ou pontos */
+    content: '\2022';
+    margin: 0 2px;
+    color: gray;
+}
 
 footer{
     position: relative;
     text-align: center;
-    font-size: 12px;
-  
+    font-size: 10px;
+    margin-top: 10px;
+    padding: 10px;
 }
+/***** Fim  do Rodapé ******/
