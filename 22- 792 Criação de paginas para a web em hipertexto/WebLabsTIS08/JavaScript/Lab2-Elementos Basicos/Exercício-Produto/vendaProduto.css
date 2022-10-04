@@ -13,7 +13,7 @@ https://colorlib.com/wp/template/colorlib-contact-form/
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
+    -font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
 body {
@@ -22,7 +22,7 @@ body {
     font-size: 12px;
     line-height: 30px;
     color: #777;
-    background: #4CAF50;
+    background: #3b443b;
 }
 
 .container {
@@ -122,14 +122,14 @@ fieldset {
   width: 100%;
   border: none;
   background: #4CAF50;
-  color: #FFF;
+  color: rgb(34, 31, 31);
   margin: 0 0 5px;
   padding: 10px;
   font-size: 15px;
 }
 
 #contact button[type="submit"]:hover {
-  background: #43A047;
+  background: #44d84b;
   -webkit-transition: background-color 0.3s ease-in-out;
   -moz-transition: background-color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
