@@ -31,23 +31,25 @@ body{
     height: 200px;
     display: flex;
     margin: auto;
-    
+    background-color: antiquewhite;
 }
 #header{
     display: flex;
     justify-content: space-between;
     width: 800px;
-    margin: 100px auto;
+    margin: 80px auto;
 }
 #box-header .h1-header{
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 35px;
+    font-weight: 300;
     color: rgb(247, 0, 0); 
 }
 #header .h4-header{
-    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 300;
 }
 #header #manu{
+    
     width: 400px;
     height: 500px;
     
@@ -66,6 +68,8 @@ body{
     text-align: center;
 }
 .menuPrincipal li a{
+    font-size: 15px;
+    margin-left: 1px;
     width: 75px;
     color: rgba(255, 245, 238, 0.808);
     text-decoration: none;
@@ -84,7 +88,7 @@ body{
 /****** Ínicio da Área de Conteúdos *****/
 
 #area-conteudo{
-    
+
     padding-top: 60px;
     max-width: 800px;
     margin: auto;
@@ -147,13 +151,11 @@ p span{
 
 /*******  Ínicio do Menu Direito **********/
 #Menu-direito{
-    
     width: 220px;
     height: 100%;
     text-align: justify;
 }
 .pesquisa{
-    
     display: flex;
     justify-content: space-between;
     width: 220px;
@@ -165,7 +167,6 @@ p span{
 }
 .pesquisa .btn{
     width: 40px;
-    
     
 }
 
