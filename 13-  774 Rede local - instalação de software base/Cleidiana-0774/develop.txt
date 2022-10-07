@@ -1,0 +1,114 @@
+select disk 1
+clean
+select disk 2
+clean
+select disk 3
+clean
+select disk 4
+clean
+select disk 5
+clean
+
+select disk 3
+
+create partition primary size 3000
+assign letter S
+format fs=NTFS quick
+
+create partition extended size 3000
+create partition logical size 800
+assign letter L
+format fs=NTFS quick
+
+create partition logical size 1000
+assign letter M
+format fs=FAT32 quick
+
+create partition logical size 600
+format fs=FAT32 quick
+
+create partition logical size 500
+assign letter R
+format fs=NTFS quick
+
+create partition primary size 500
+assign letter O
+format fs=NTFS quick
+
+create partition primary size 1200
+assign letter T
+format fs=NTFS quick
+
+
+select disk 1
+convert dynamic
+select disk 2
+convert dynamic
+select disk 4
+convert dynamic
+select disk 5
+convert dynamic
+
+
+create volume mirror size 1500 disk 1,5
+assign letter F
+format fs=FAT32 quick
+
+create volume mirror size 800 disk 1,5
+assign letter H
+format fs=NTFS quick
+
+create volume simple size 300 disk 4
+assign letter G
+format fs=NTFS quick
+
+select volume G
+extend size 500 disk 5
+
+create volume raid size 1300 disk 1,2,4,5
+assign letter A
+format fs=NTFS quick
+
+select volume G
+extend size 700 disk 2 
+
+select volume G
+extend size 600 disk 4
+
+create volume stripe size 1000 disk 1,2,4,5
+assign letter N
+format fs=NTFS quick
+
+create volume mirror size 600 disk 4
+assign letter K
+format fs=RAW quick
+
+create volume simple size 300 disk 4
+assign letter
+format fs=RAW quick
+
+select volume G
+extend size 800 disk 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

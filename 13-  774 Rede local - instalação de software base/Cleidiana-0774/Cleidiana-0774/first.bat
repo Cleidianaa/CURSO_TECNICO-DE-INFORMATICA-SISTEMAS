@@ -1,0 +1,1 @@
+diskpart.exe /s c:\Cleidiana-0774\develop.txt
