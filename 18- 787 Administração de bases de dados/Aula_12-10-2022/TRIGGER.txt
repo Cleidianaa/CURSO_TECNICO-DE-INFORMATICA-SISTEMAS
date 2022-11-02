@@ -1,0 +1,194 @@
+
+///**********************************///
+
+create database Revisoes
+
+
+
+///**********************************///
+create table Encomenda
+(
+  Numero int not null,
+  Descr varchar(100)
+  )
+
+
+///**********************************///
+
+ create table EncomendaBackup
+(
+  NumeroB int not null,
+  DescrB varchar(100)
+  )
+
+
+///**********************************///
+use Revisoes
+
+Create trigger trigger1
+on Encomenda
+after insert
+as
+begin
+declare @x int=0
+set @x=(select count(*) from Encomenda)
+print concat('total ',@x)
+end
+
+insert into Encomenda (Numero, Descr) values ('101', 'gaspkpdipiwiwe sjsh')
+
+
+
+///**********************************///
+Alter trigger trigger1
+on Encomenda
+after insert
+as
+begin
+declare @x int=0
+set @x=(select count(*) from Encomenda)
+print concat('total: ',@x)
+end
+
+
+
+///**********************************///
+create trigger trigger2
+on Encomenda
+after update
+as
+begin
+print 'Base de dados atualizada'
+end
+
+
+
+///**********************************///
+Create trigger trigger3
+on Encomenda
+instead of delete
+as
+begin
+print 'Não pode apagar registos da base de dados'
+end
+
+
+///**********************************///
+update Encomenda
+set Descr='mesa grande'
+where numero=101
+
+delete from Encomenda
+where numero=101
+
+delete from Encomenda
+where numero=101
+
+
+
+///**********************************///
+Create trigger trigger4
+on Encomenda
+instead of insert
+as 
+begin
+declare @s varchar(50)
+declare @a varchar(50)
+set @s=(select Numero from inserted)
+set @a= (select Descr from inserted)
+if LEN (@a) < 2
+print('A descrição não pode ter menos de 1 caracter. O registo não foi inserido.')
+else
+Insert into Encomenda(Numero, Descr) VALUES (@s, @a)
+end
+
+update Encomenda
+set numero= 1
+where numero=101
+
+insert into Encomenda values (2,'1')
+insert into Encomenda values (3,'12')
+insert into Encomenda values (4,'123')
+insert into Encomenda values (5,'1234')
+insert into Encomenda values (6,'12345')
+
+insert into Encomenda values (2,'123456')
+
+Create trigger trigger5
+on Encomenda
+after insert
+as 
+begin
+declare @s varchar(50)
+declare @a varchar(50)
+set @s=(select Numero from inserted)
+set @a= (select Descr from inserted)
+Insert into EncomendaBackup(NumeroB, DescrB) VALUES (@s, @a)
+select * from EncomendaBackup
+end
+
+insert into Encomenda values (101,'sofa')
+insert into Encomenda values (102,'a')
+
+create table TotalInt
+(
+	Total int not null primary Key
+	)
+
+update TotalInt
+set Total=Total+1
+
+Create trigger trigger6
+on Encomenda
+after insert
+as 
+begin
+update TotalInt
+set Total=Total+1
+select * from TotalIn
+end
+
+disable  Trigger trigger3 on dbo.Encomenda
+
+delete from Encomenda
+where numero = 101
+
+delete from Encomenda
+where numero=9
+
+Create trigger trigger8
+on TotalInt
+instead of insert,delete
+as 
+begin
+print('A Tabela não pode ser alterada.')
+end
+
+
+insert into TotalInt (Total) Values (3)
+
+delete from TotalInt
+
+CREATE TRIGGER dbo.trigger9
+ON dbo.TotalInt
+instead of update
+AS
+BEGIN
+print @@NESTLEVEL
+END
+
+update TotalInt 
+set Total = 7
+
+insert into Encomenda values (1,'sofa')
+
+ALTER TRIGGER dbo.trigger9
+ON dbo.TotalInt
+instead of update
+AS
+BEGIN
+ print concat('nível: ', @@NESTLEVEL)
+END
+
+insert into Encomenda values (11,'comoda')
+
