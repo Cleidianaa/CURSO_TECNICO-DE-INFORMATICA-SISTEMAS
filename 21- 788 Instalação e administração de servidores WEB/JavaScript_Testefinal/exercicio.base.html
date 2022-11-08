@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FlexForm</title>
+    <link rel="stylesheet" href="exercicio.css" type="text/css">
+    <script src="exercecio.js"></script>
+</head>
+<body>
+    <div class="container">  
+        <form id="contact" action="#"  >
+
+            <div  class="grupoA"> 
+                <label>Nome</label>
+                <span>:</span>
+                <input id="name" type="text" tabindex="1" size="1" required autofocus>
+            
+                <label>Apelido</label>
+                <span>:</span>
+                <input id="apelido" type="text" tabindex="2"  size="1" required>
+            </div>
+
+            <div class="grupoB">
+                <label>Email</label>
+                <span>:</span>
+                <input id="email" type="text" tabindex="3"  size="1" required>
+         
+                <label>Data</label>
+                <span>:</span>
+                <input id="date" type="text" tabindex="4"  size="1" required>
+           </div>
+           <div class="btn">   
+                <button name="send" id="send" type="submit" >Enviar</button>
+                
+                <button name="reset" id="reset" type="submit" >Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
