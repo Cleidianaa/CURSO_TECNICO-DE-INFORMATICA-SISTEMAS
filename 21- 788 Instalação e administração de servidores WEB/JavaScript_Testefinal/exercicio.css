@@ -1,60 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     font-size: 62.5%;
 }
-
 body {
     font-family: sans-serif;
     font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-around; 
+    padding: 100px; 
     
 }
+/*
 .container{
-    justify-content: center;
     display: flex;
-   /* background-color: #f1f1f1;*/
-    margin: 10px 5px 10px 5px ;
-    padding: 100px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
+*/
 form{
     display: block;
-    background-color: #f1f1f1;
+    flex-wrap: wrap;
+   /* background-color: #f1f1f1; */
     margin: 5px;
     padding: 10px;
     border-style: groove;
     border-radius: 3px;
     
 }
-.grupoA{
-    padding: 10px;
-}
-.grupoB{
-    padding: 10px;
-}
-
 label {
     display: inline-block;
     width: 5em;
     font-weight: bold;
-    white-space: 5px;
 }
-
-input {
-    
+div{
+    padding: 10px;
+}
+input{
     font-size: 2rem;
-    padding: 0.2em;
-    width: 12em;
+    width: 13em;
     border: groove;
     border-radius: 3px;
-    box-shadow: inse
+      
     
-
 }
+.input-control input:focus{
+    outline: 0;
+}
+/*
+.input-control.success input{
+    border-color: #09c309;
+}
+.input-control.error input{
+    border-color: #ff3860;
+}
+.input-control .error{
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+*/
 .btn{
-    align-items: center;
-    
-    
+    align-items: center; 
 }
 
 button {
@@ -70,4 +81,9 @@ button {
 button:hover {
     outline: 2px solid rgb(66, 61, 61);
     background-color: grey;
+    
+   
+}
+@media screen {
+    
 }

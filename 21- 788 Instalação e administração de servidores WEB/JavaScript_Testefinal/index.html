@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index_css.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form class="formulario" action="" method="post" onsubmit="return validaTudo()">
+            <div class="box">
+                <div class="box1">
+
+                    <label for="">Nome:</label>
+                    <input type="text" id="TxtNome" >
+
+                    <label for="">Apelido:</label>
+                    <input type="text" id="TxtApelido" >
+
+                    <label for="">E-mail:</label>
+                    <input type="email" id="TxtEmail" >
+
+                    <label for="">Data:</label>
+                    <input type="text" id="TxtData" >
+
+                </div>
+            </div>
+            <div class="box3">
+
+                <input type="submit" name="submit" id="submit" value="Enviar">
+
+                <input type="reset" name="reset" id="reset" value="Reset" onclick="reset()">
+
+            </div>
+        </form>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
