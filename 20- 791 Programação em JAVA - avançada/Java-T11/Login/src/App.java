@@ -13,26 +13,16 @@ public class App extends Application{
 
     @Override
     public  void start(Stage primaryStage) throws Exception { // configurar a minha janela da app
-      FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Login1.fxml"));
+      FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("layout1.fxml"));
       Parent raiz = fxmlLoader.load();
       Scene tela = new Scene(raiz);
 
-      primaryStage.setTitle("Aula do Bruno");
+      primaryStage.setTitle("Login");
       primaryStage.setScene(tela);
       primaryStage.show();
    
     }
 
-    public  void start(Stage primaryStage) throws Exception { // configurar a minha janela da app
-      FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("layout.fxml"));
-      Parent raiz = fxmlLoader.load();
-      Scene tela = new Scene(raiz);
-
-      primaryStage.setTitle("Aula do Bruno");
-      primaryStage.setScene(tela);
-      primaryStage.show();
-   
-    }
 
 };
    

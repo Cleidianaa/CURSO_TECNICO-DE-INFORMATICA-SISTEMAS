@@ -43,7 +43,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -86,24 +86,33 @@
     </MenuBar>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <children>
-            <Label layoutX="153.0" layoutY="47.0" text="Login">
+            <Label layoutX="226.0" layoutY="47.0" prefHeight="47.0" prefWidth="159.0" text="Formulário" textAlignment="CENTER" textFill="#400ca1">
                <font>
                   <Font size="32.0" />
                </font>
             </Label>
-            <Label layoutX="152.0" layoutY="124.0" text="Utilizador:">
+            <Label layoutX="144.0" layoutY="102.0" text="Utilizador:">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-            <Button fx:id="btnLogin" layoutX="269.0" layoutY="294.0" mnemonicParsing="false" onAction="#fazerlogin" prefHeight="36.0" prefWidth="71.0" text="Entrar" />
-            <TextField fx:id="txtUtilizador" layoutX="168.0" layoutY="151.0" prefHeight="25.0" prefWidth="159.0" />
-            <Label layoutX="155.0" layoutY="217.0" text="Senhar:">
+            <Button fx:id="btnLogin" layoutX="259.0" layoutY="326.0" mnemonicParsing="false" onAction="#mudarparalogin" prefHeight="36.0" prefWidth="81.0" text="Entrar">
+               <font>
+                  <Font size="19.0" />
+               </font></Button>
+            <TextField fx:id="txtUtilizador" layoutX="144.0" layoutY="129.0" prefHeight="36.0" prefWidth="289.0" />
+            <Label layoutX="148.0" layoutY="255.0" prefHeight="27.0" prefWidth="74.0" text="Senhar:">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-            <TextField fx:id="txtSenhar" layoutX="178.0" layoutY="244.0" prefHeight="25.0" prefWidth="149.0" />
+            <TextField fx:id="txtSenhar" layoutX="144.0" layoutY="282.0" prefHeight="36.0" prefWidth="289.0" />
+            <Label layoutX="152.0" layoutY="187.0" text="Endereço:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtEndereço" layoutX="144.0" layoutY="214.0" prefHeight="36.0" prefWidth="289.0" />
       </children>
     </AnchorPane>
   </children>

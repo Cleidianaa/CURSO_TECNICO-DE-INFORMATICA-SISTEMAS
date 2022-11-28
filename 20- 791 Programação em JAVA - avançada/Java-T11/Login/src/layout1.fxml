@@ -43,7 +43,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador1">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -86,7 +86,7 @@
     </MenuBar>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <children>
-            <Label layoutX="231.0" layoutY="30.0" prefHeight="59.0" prefWidth="112.0" text="Login">
+            <Label layoutX="153.0" layoutY="47.0" text="Login">
                <font>
                   <Font size="32.0" />
                </font>
@@ -96,14 +96,14 @@
                   <Font size="18.0" />
                </font>
             </Label>
-            <Button fx:id="btnLogin" layoutX="271.0" layoutY="291.0" mnemonicParsing="false" onAction="#mudarFormuario" prefHeight="47.0" prefWidth="71.0" text="Entrar" />
-            <TextField fx:id="txtUtilizador" layoutX="157.0" layoutY="151.0" prefHeight="25.0" prefWidth="170.0" />
+            <Button fx:id="btnLogin" layoutX="269.0" layoutY="294.0" mnemonicParsing="false" onAction="#fazerlogin" prefHeight="36.0" prefWidth="71.0" text="Entrar" />
+            <TextField fx:id="txtUtilizador" layoutX="168.0" layoutY="151.0" prefHeight="25.0" prefWidth="159.0" />
             <Label layoutX="155.0" layoutY="217.0" text="Senhar:">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-            <TextField fx:id="txtSenhar" layoutX="157.0" layoutY="244.0" prefHeight="25.0" prefWidth="170.0" />
+            <TextField fx:id="txtSenhar" layoutX="178.0" layoutY="244.0" prefHeight="25.0" prefWidth="149.0" />
       </children>
     </AnchorPane>
   </children>

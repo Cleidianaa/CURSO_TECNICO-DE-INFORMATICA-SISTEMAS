@@ -43,7 +43,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador2">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -86,7 +86,7 @@
     </MenuBar>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
       <children>
-            <Label layoutX="230.0" layoutY="23.0" prefHeight="47.0" prefWidth="159.0" text="Formulário" textAlignment="CENTER" textFill="#400ca1">
+            <Label layoutX="226.0" layoutY="47.0" prefHeight="47.0" prefWidth="159.0" text="Formulário" textAlignment="CENTER" textFill="#400ca1">
                <font>
                   <Font size="32.0" />
                </font>
@@ -96,7 +96,7 @@
                   <Font size="18.0" />
                </font>
             </Label>
-            <Button fx:id="btnLogin" layoutX="260.0" layoutY="318.0" mnemonicParsing="false" onAction="#mudarlogin" prefHeight="36.0" prefWidth="136.0" text="Entrar">
+            <Button fx:id="btnLogin" layoutX="260.0" layoutY="328.0" mnemonicParsing="false" onAction="#fazeracao" prefHeight="47.0" prefWidth="92.0" text="Entrar">
                <font>
                   <Font size="22.0" />
                </font></Button>

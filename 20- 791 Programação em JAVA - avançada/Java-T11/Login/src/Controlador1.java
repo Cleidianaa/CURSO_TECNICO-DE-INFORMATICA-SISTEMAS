@@ -5,35 +5,15 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.stage.Stage;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import java.io.IOException;
+import javafx.stage.Stage;
 import javafx.scene.Node;
 
-
-public class LoginController {
+public class Controlador1 {
     private Stage Palco;
     private Scene Cena;
-    private Parent  Raiz;
-
-    public void mudarlogin (ActionEvent event) throws IOException{
-        Raiz = FXMLLoader.load(getClass().getResource("Login1.fxml"));
-        Palco = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Cena = new Scene(Raiz);
-        Palco.setScene(Cena);
-        Palco.show();
-
-    }
-
-    public void mudarformulario (ActionEvent event) throws IOException{
-        Raiz = FXMLLoader.load(getClass().getResource("layout.fxml"));
-        Palco = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Cena = new Scene(Raiz);
-        Palco.setScene(Cena);
-        Palco.show();
-
-    }
+    private Parent Raiz;
 
     @FXML
     private ResourceBundle resources;
@@ -51,12 +31,19 @@ public class LoginController {
     private TextField txtUtilizador;
 
     @FXML
-    void fazerlogin(ActionEvent event) {
+    void fazerlogin(ActionEvent event)throws Exception {
         String utilzador = txtUtilizador.getText();
         String senha = txtSenhar.getText();
 
         if(utilzador.equals("Cleidiana Barbosa")&& senha.equals("123450001")){
             System.out.println("Login efectuado com sucesso!");
+
+            Raiz = FXMLLoader.load(getClass().getResource("layout2.fxml"));
+            Palco = (Stage)((Node)event.getSource()).getScene().getWindow();
+            Cena = new Scene(Raiz);
+            Palco.setScene(Cena);
+            Palco.show();
+            
         } else{
             System.out.println("Utilizador ou Senha inválidos");
         }
@@ -69,8 +56,5 @@ public class LoginController {
         assert txtUtilizador != null : "fx:id=\"txtUtilizador\" was not injected: check your FXML file 'Untitled'.";
 
     }
-    
 
 }
- 
-
