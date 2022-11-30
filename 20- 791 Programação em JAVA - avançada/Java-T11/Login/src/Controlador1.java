@@ -17,19 +17,14 @@ public class Controlador1 {
 
     @FXML
     private ResourceBundle resources;
-
     @FXML
     private URL location;
-
     @FXML
     private Button btnLogin;
-
     @FXML
     private TextField txtSenhar;
-
     @FXML
     private TextField txtUtilizador;
-
     @FXML
     void fazerlogin(ActionEvent event)throws Exception {
         String utilzador = txtUtilizador.getText();
@@ -48,7 +43,6 @@ public class Controlador1 {
             System.out.println("Utilizador ou Senha inválidos");
         }
     }
-
     @FXML
     void initialize() {
         assert btnLogin != null : "fx:id=\"btnLogin\" was not injected: check your FXML file 'Untitled'.";
