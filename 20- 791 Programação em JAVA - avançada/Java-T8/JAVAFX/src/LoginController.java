@@ -1,5 +1,8 @@
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import javax.swing.JOptionPane;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -28,9 +31,9 @@ public class LoginController {
         String senha = txtSenhar.getText();
 
         if(utilzador.equals("Cleidiana.Babrosa")&& senha.equals("123450001")){
-            System.out.println("Login efectuado com sucesso!");
+            JOptionPane.showMessageDialog(null, "Login efectuado com sucesso!");
         } else{
-            System.out.println("Utilizador ou Senha inválidos");
+            JOptionPane.showMessageDialog(null, "Dados Errados, Por favor corrigir!");
         }
     }
 
