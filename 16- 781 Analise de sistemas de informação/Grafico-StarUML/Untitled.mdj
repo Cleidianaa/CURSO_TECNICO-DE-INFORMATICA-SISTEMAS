@@ -1,0 +1,631 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGFd6lOkVG6huQ=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"left": 584,
+							"top": 152,
+							"width": 200,
+							"height": 121
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGFd6m3/lG+7aw=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#ffff00",
+							"font": "Courier;13;0",
+							"left": 88,
+							"top": 40,
+							"width": 90,
+							"height": 33,
+							"text": "Aluno",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGFd64v11Ii6lU=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#5656ff",
+							"font": "Courier;13;0",
+							"left": 600,
+							"top": 528,
+							"width": 88.0126953125,
+							"height": 25,
+							"autoResize": true,
+							"text": "Secretaria ",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGFd641hlImDUc=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#aaaaaa",
+							"font": "Courier;13;0",
+							"left": 40,
+							"top": 512,
+							"width": 95.81396484375,
+							"height": 33,
+							"text": "Professores",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGFd644RlIqpb8=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#5656ff",
+							"font": "Courier;13;0",
+							"left": 88,
+							"top": 216,
+							"width": 90,
+							"height": 33,
+							"text": "Secretaria ",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGFd7EaklJINcc=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#ff2b2b",
+							"font": "Courier;13;0",
+							"left": 576,
+							"top": 608,
+							"width": 161,
+							"height": 41,
+							"text": "Dossier do Aluno",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGFd7LV+1Jejx4=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Courier;11;0",
+							"left": 632,
+							"top": 560,
+							"width": 95.81396484375,
+							"height": 34,
+							"text": "Dados atualizado "
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGFd7RA71Jr42c=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#cc9900",
+							"font": "Courier;13;0",
+							"left": 288,
+							"top": 288,
+							"width": 161,
+							"height": 57,
+							"text": "Afixar Comunicado  Novos Horários e Turmas",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGFd7RDdlJvo1g=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#ad00ad",
+							"font": "Courier;13;0",
+							"showShadow": false,
+							"left": 288,
+							"top": 496,
+							"width": 121,
+							"height": 73,
+							"text": "Resultado das notas",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGFd7Z3XlKFQo0=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#ad00ad",
+							"font": "Courier;13;0",
+							"showShadow": false,
+							"left": 288,
+							"top": 384,
+							"width": 121,
+							"height": 81,
+							"text": "Pautas com caras  dos  exames para consulta dos  alunos",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGFd7h6UlKVfmg=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#00b799",
+							"font": "Courier;13;0",
+							"showShadow": false,
+							"left": 296,
+							"top": 192,
+							"width": 105,
+							"height": 73,
+							"text": "Elaborar Horários e Turmas",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd7snu1K6eZU=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "632:552;632:608",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd7uVH1LDVXU=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "408:528;600:528",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd7yDk1LYRhk=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "288:528;136:528",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd7z1LlLfw5U=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "80:504;80:432"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd70UIlLi0dE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "80:432;272:431",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd7328lLt3YQ=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "128:248;127:330"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd74UTlLwAPM=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "128:328;280:328",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd757DlL1X5k=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "176:224;283:224",
+							"headEndStyle": 1,
+							"tailEndStyle": 1
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGFd782D1L917w=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Courier;11;0",
+							"left": 448,
+							"top": 512,
+							"width": 137,
+							"height": 23,
+							"text": "informam as notas"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGFd7/jtVMJ0nQ=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Courier;11;0",
+							"left": 160,
+							"top": 512,
+							"width": 137,
+							"height": 34,
+							"text": "Avaliam as provas e tarefas "
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGFd8BioVMSSLI=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Courier;11;0",
+							"left": 104,
+							"top": 416,
+							"width": 137,
+							"height": 45,
+							"text": "Elaboram as pautas dos exames e tarefas dos alunos "
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGFd8DrhVMbuc4=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Courier;11;0",
+							"left": 136,
+							"top": 312,
+							"width": 137,
+							"height": 34,
+							"text": "Comunica os dados da turma "
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGFd8FKNVMlXRw=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Courier;11;0",
+							"left": 184,
+							"top": 208,
+							"width": 137,
+							"height": 23,
+							"text": "Elaboração de dados "
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGFd8R5plNJW7o=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#cc9900",
+							"font": "Courier;13;0",
+							"left": 616,
+							"top": 192,
+							"width": 209,
+							"height": 64,
+							"text": "Verificar Disponibilidade das Salas, Professores e Plano dos Cursos",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd8XYt1NYI8w=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "616:224;408:224",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGFd8bsTVNmY9g=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#ff00ff",
+							"font": "Courier;12;0",
+							"showShadow": false,
+							"left": 304,
+							"top": 40,
+							"width": 113,
+							"height": 49,
+							"text": "Verificar Inscrição ",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGFd8f991Ny+nM=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#7fff00",
+							"font": "Courier;12;0",
+							"showShadow": false,
+							"left": 616,
+							"top": 16,
+							"width": 153,
+							"height": 57,
+							"text": "Cadeiras e Precedências",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGFd8gO51N3v/8=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"fillColor": "#ff00ff",
+							"font": "Courier;12;0",
+							"showShadow": false,
+							"left": 640,
+							"top": 112,
+							"width": 97,
+							"height": 41,
+							"text": "Histórico ",
+							"horzAlign": 2,
+							"vertAlign": 5
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd8oLc1OIJTc=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "176:48;288:47",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd8prGlOOuWY=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "320:88;319:121"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd8qhKlOSBaY=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "320:120;128:120"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd8r+MVOZtwc=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "128:120;129:91",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd8tKf1Oe64M=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "416:48;602:46",
+							"headEndStyle": 1
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGFd8ty+1OixVA=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "632:144;400:144;400:88",
+							"headEndStyle": 1,
+							"tailEndStyle": 1
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGFd81VzlO5X6s=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Courier;11;0",
+							"left": 424,
+							"top": 208,
+							"width": 209,
+							"height": 34,
+							"text": "Checagem as infomação Pré-requisitos"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGFd83mIFO/0UQ=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Courier;11;0",
+							"left": 184,
+							"top": 32,
+							"width": 137,
+							"height": 23,
+							"text": "Inscrição"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGFd85ANVPHv6k=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Courier;11;0",
+							"left": 144,
+							"top": 120,
+							"width": 137,
+							"height": 23,
+							"text": "Inscrição validada"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGFd86aeFPN11o=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Courier;11;0",
+							"left": 432,
+							"top": 144,
+							"width": 137,
+							"height": 23,
+							"text": "Informa a Situação"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGFd89uslPYJe0=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Courier;11;0",
+							"left": 440,
+							"top": 120,
+							"width": 137,
+							"height": 23,
+							"text": "historico do aluno"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGFd8/oH1Pf+j8=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"font": "Courier;11;0",
+							"left": 416,
+							"top": 24,
+							"width": 193,
+							"height": 23,
+							"text": "Enviar para cadeiras "
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAGFdyz2tFBLF2g=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Class1"
+				},
+				{
+					"_type": "UMLSignal",
+					"_id": "AAAAAAGFd6GHgVCPnKk=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Signal1"
+				},
+				{
+					"_type": "UMLObject",
+					"_id": "AAAAAAGFd6ITIVDQ/y4=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Aluno"
+				},
+				{
+					"_type": "UMLObject",
+					"_id": "AAAAAAGFd6TE+VEBw+Y=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Object1"
+				},
+				{
+					"_type": "UMLDataType",
+					"_id": "AAAAAAGFd6auMVE64nE=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "DataType1"
+				},
+				{
+					"_type": "UMLComponentInstance",
+					"_id": "AAAAAAGFd6cO2VF7rJk=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "ComponentInstance1",
+					"documentation": "\n"
+				},
+				{
+					"_type": "UMLDataType",
+					"_id": "AAAAAAGFd6sViVHEXhA=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "DataType2"
+				}
+			]
+		}
+	]
+}
