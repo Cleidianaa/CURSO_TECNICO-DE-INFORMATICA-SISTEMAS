@@ -47,6 +47,7 @@
 												"$ref": "AAAAAAGFuiKX8IN+N9E="
 											},
 											"visible": false,
+											"fillColor": "#fffbfb",
 											"font": "Arial;13;0",
 											"height": 13
 										},
@@ -56,12 +57,13 @@
 											"_parent": {
 												"$ref": "AAAAAAGFuiKX8IN+N9E="
 											},
+											"fillColor": "#fffbfb",
 											"font": "Arial;13;1",
 											"left": 117,
 											"top": 95,
 											"width": 158,
 											"height": 13,
-											"text": "Jogos"
+											"text": "Central de Matrícula"
 										},
 										{
 											"_type": "LabelView",
@@ -70,6 +72,7 @@
 												"$ref": "AAAAAAGFuiKX8IN+N9E="
 											},
 											"visible": false,
+											"fillColor": "#fffbfb",
 											"font": "Arial;13;0",
 											"width": 73.67724609375,
 											"height": 13,
@@ -82,11 +85,13 @@
 												"$ref": "AAAAAAGFuiKX8IN+N9E="
 											},
 											"visible": false,
+											"fillColor": "#fffbfb",
 											"font": "Arial;13;0",
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
+									"fillColor": "#fffbfb",
 									"font": "Arial;13;0",
 									"left": 112,
 									"top": 88,
@@ -124,12 +129,13 @@
 											"model": {
 												"$ref": "AAAAAAGFuiMZSIOlx2Y="
 											},
+											"fillColor": "#fffbfb",
 											"font": "Arial;13;0",
 											"left": 117,
 											"top": 118,
 											"width": 158,
 											"height": 13,
-											"text": "+nome",
+											"text": "+´data da matricula",
 											"horizontalAlignment": 0
 										},
 										{
@@ -141,12 +147,13 @@
 											"model": {
 												"$ref": "AAAAAAGFuiOlSIOsIUs="
 											},
+											"fillColor": "#fffbfb",
 											"font": "Arial;13;0",
 											"left": 117,
 											"top": 133,
 											"width": 158,
 											"height": 13,
-											"text": "+qtdMinimaAposta",
+											"text": "+valor a pagar",
 											"horizontalAlignment": 0
 										},
 										{
@@ -158,12 +165,13 @@
 											"model": {
 												"$ref": "AAAAAAGFuiRDj4OztxE="
 											},
+											"fillColor": "#fffbfb",
 											"font": "Arial;13;0",
 											"left": 117,
 											"top": 148,
 											"width": 158,
 											"height": 13,
-											"text": "+qtdMaximaAposta",
+											"text": "+nome do aluno",
 											"horizontalAlignment": 0
 										},
 										{
@@ -175,54 +183,22 @@
 											"model": {
 												"$ref": "AAAAAAGFuiRkwIO6bIg="
 											},
+											"fillColor": "#fffbfb",
 											"font": "Arial;13;0",
 											"left": 117,
 											"top": 163,
 											"width": 158,
 											"height": 13,
-											"text": "+qtdNumerosSorteados",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAGFuiUL84PEYFw=",
-											"_parent": {
-												"$ref": "AAAAAAGFuiKX8IODt+o="
-											},
-											"model": {
-												"$ref": "AAAAAAGFuiUL74PBNMs="
-											},
-											"font": "Arial;13;0",
-											"left": 117,
-											"top": 178,
-											"width": 158,
-											"height": 13,
-											"text": "+minimoAcertos",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
-											"_id": "AAAAAAGFuiU+u4PLbMQ=",
-											"_parent": {
-												"$ref": "AAAAAAGFuiKX8IODt+o="
-											},
-											"model": {
-												"$ref": "AAAAAAGFuiU+uIPI7NA="
-											},
-											"font": "Arial;13;0",
-											"left": 117,
-											"top": 193,
-											"width": 158,
-											"height": 13,
-											"text": "+maximoAcertos",
+											"text": "+turma  do aluno",
 											"horizontalAlignment": 0
 										}
 									],
+									"fillColor": "#fffbfb",
 									"font": "Arial;13;0",
 									"left": 112,
 									"top": 113,
 									"width": 168,
-									"height": 98
+									"height": 68
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -243,18 +219,20 @@
 											"model": {
 												"$ref": "AAAAAAGFuiZUyoPPdnE="
 											},
+											"fillColor": "#fffbfb",
 											"font": "Arial;13;0",
 											"left": 117,
-											"top": 216,
+											"top": 186,
 											"width": 158,
 											"height": 13,
-											"text": "+registarJogo()",
+											"text": "+registar()",
 											"horizontalAlignment": 0
 										}
 									],
+									"fillColor": "#fffbfb",
 									"font": "Arial;13;0",
 									"left": 112,
-									"top": 211,
+									"top": 181,
 									"width": 168,
 									"height": 23
 								},
@@ -268,6 +246,7 @@
 										"$ref": "AAAAAAGFuiKX8IN7m50="
 									},
 									"visible": false,
+									"fillColor": "#fffbfb",
 									"font": "Arial;13;0",
 									"width": 10,
 									"height": 10
@@ -282,11 +261,13 @@
 										"$ref": "AAAAAAGFuiKX8IN7m50="
 									},
 									"visible": false,
+									"fillColor": "#fffbfb",
 									"font": "Arial;13;0",
 									"width": 10,
 									"height": 10
 								}
 							],
+							"fillColor": "#fffbfb",
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 112,
@@ -336,9 +317,10 @@
 												"$ref": "AAAAAAGFuiqnkoPZI64="
 											},
 											"visible": false,
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": 128,
-											"top": 96,
+											"top": 80,
 											"height": 13
 										},
 										{
@@ -347,12 +329,13 @@
 											"_parent": {
 												"$ref": "AAAAAAGFuiqnkoPZI64="
 											},
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;1",
 											"left": 525,
-											"top": 135,
+											"top": 127,
 											"width": 191,
 											"height": 13,
-											"text": "Concurso"
+											"text": "Gestor do Curso"
 										},
 										{
 											"_type": "LabelView",
@@ -361,9 +344,10 @@
 												"$ref": "AAAAAAGFuiqnkoPZI64="
 											},
 											"visible": false,
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": 128,
-											"top": 96,
+											"top": 80,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -375,16 +359,18 @@
 												"$ref": "AAAAAAGFuiqnkoPZI64="
 											},
 											"visible": false,
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": 128,
-											"top": 96,
+											"top": 80,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
+									"fillColor": "#fff8f8",
 									"font": "Arial;13;0",
 									"left": 520,
-									"top": 128,
+									"top": 120,
 									"width": 201,
 									"height": 25,
 									"stereotypeLabel": {
@@ -419,12 +405,13 @@
 											"model": {
 												"$ref": "AAAAAAGFuirG74QAgYc="
 											},
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": 525,
-											"top": 158,
+											"top": 150,
 											"width": 191,
 											"height": 13,
-											"text": "+numeroConcurso",
+											"text": "+horário e tempo do curso",
 											"horizontalAlignment": 0
 										},
 										{
@@ -436,18 +423,20 @@
 											"model": {
 												"$ref": "AAAAAAGFuir4MIQHEdE="
 											},
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": 525,
-											"top": 173,
+											"top": 165,
 											"width": 191,
 											"height": 13,
-											"text": "+data",
+											"text": "+valor do curso",
 											"horizontalAlignment": 0
 										}
 									],
+									"fillColor": "#fff8f8",
 									"font": "Arial;13;0",
 									"left": 520,
-									"top": 153,
+									"top": 145,
 									"width": 201,
 									"height": 38
 								},
@@ -470,20 +459,58 @@
 											"model": {
 												"$ref": "AAAAAAGFuitQyYQZAN8="
 											},
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": 525,
-											"top": 196,
+											"top": 188,
 											"width": 191,
 											"height": 13,
 											"text": "+registo()",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGFykG01kDFSBE=",
+											"_parent": {
+												"$ref": "AAAAAAGFuiqnkoPfkcg="
+											},
+											"model": {
+												"$ref": "AAAAAAGFykG0xUDC8sg="
+											},
+											"fillColor": "#fff8f8",
+											"font": "Arial;13;0",
+											"left": 525,
+											"top": 203,
+											"width": 191,
+											"height": 13,
+											"text": "+consultar()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGFykHM9UEvedo=",
+											"_parent": {
+												"$ref": "AAAAAAGFuiqnkoPfkcg="
+											},
+											"model": {
+												"$ref": "AAAAAAGFykHM5EEsCqk="
+											},
+											"fillColor": "#fff8f8",
+											"font": "Arial;13;0",
+											"left": 525,
+											"top": 218,
+											"width": 191,
+											"height": 13,
+											"text": "+alterar()",
+											"horizontalAlignment": 0
 										}
 									],
+									"fillColor": "#fff8f8",
 									"font": "Arial;13;0",
 									"left": 520,
-									"top": 191,
+									"top": 183,
 									"width": 201,
-									"height": 23
+									"height": 53
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -495,9 +522,10 @@
 										"$ref": "AAAAAAGFuiqnkoPWiJI="
 									},
 									"visible": false,
+									"fillColor": "#fff8f8",
 									"font": "Arial;13;0",
 									"left": 64,
-									"top": 48,
+									"top": 40,
 									"width": 10,
 									"height": 10
 								},
@@ -511,19 +539,21 @@
 										"$ref": "AAAAAAGFuiqnkoPWiJI="
 									},
 									"visible": false,
+									"fillColor": "#fff8f8",
 									"font": "Arial;13;0",
 									"left": 64,
-									"top": 48,
+									"top": 40,
 									"width": 10,
 									"height": 10
 								}
 							],
+							"fillColor": "#fff8f8",
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 520,
-							"top": 128,
+							"top": 120,
 							"width": 201,
-							"height": 97,
+							"height": 116,
 							"nameCompartment": {
 								"$ref": "AAAAAAGFuiqnkoPZI64="
 							},
@@ -567,9 +597,10 @@
 												"$ref": "AAAAAAGFuixk6IQpBpo="
 											},
 											"visible": false,
+											"fillColor": "#fff4f4",
 											"font": "Arial;13;0",
 											"left": -32,
-											"top": 80,
+											"top": 64,
 											"height": 13
 										},
 										{
@@ -578,12 +609,13 @@
 											"_parent": {
 												"$ref": "AAAAAAGFuixk6IQpBpo="
 											},
+											"fillColor": "#fff4f4",
 											"font": "Arial;13;1",
 											"left": 133,
-											"top": 375,
+											"top": 367,
 											"width": 175.9443359375,
 											"height": 13,
-											"text": "Apostas"
+											"text": "Gestor do  Aluno"
 										},
 										{
 											"_type": "LabelView",
@@ -592,9 +624,10 @@
 												"$ref": "AAAAAAGFuixk6IQpBpo="
 											},
 											"visible": false,
+											"fillColor": "#fff4f4",
 											"font": "Arial;13;0",
 											"left": -32,
-											"top": 80,
+											"top": 64,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -606,16 +639,18 @@
 												"$ref": "AAAAAAGFuixk6IQpBpo="
 											},
 											"visible": false,
+											"fillColor": "#fff4f4",
 											"font": "Arial;13;0",
 											"left": -32,
-											"top": 80,
+											"top": 64,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
+									"fillColor": "#fff4f4",
 									"font": "Arial;13;0",
 									"left": 128,
-									"top": 368,
+									"top": 360,
 									"width": 185.9443359375,
 									"height": 25,
 									"stereotypeLabel": {
@@ -650,12 +685,13 @@
 											"model": {
 												"$ref": "AAAAAAGFujFW/4SmJx8="
 											},
+											"fillColor": "#fff4f4",
 											"font": "Arial;13;0",
 											"left": 133,
-											"top": 398,
+											"top": 390,
 											"width": 175.9443359375,
 											"height": 13,
-											"text": "+numerosApostados",
+											"text": "+nome do aluno",
 											"horizontalAlignment": 0
 										},
 										{
@@ -667,12 +703,13 @@
 											"model": {
 												"$ref": "AAAAAAGFujjBiInRjmg="
 											},
+											"fillColor": "#fff4f4",
 											"font": "Arial;13;0",
 											"left": 133,
-											"top": 413,
+											"top": 405,
 											"width": 175.9443359375,
 											"height": 13,
-											"text": "+[Concurso.Jogos.qdtMinima]",
+											"text": "+nif do aluno",
 											"horizontalAlignment": 0
 										},
 										{
@@ -684,20 +721,58 @@
 											"model": {
 												"$ref": "AAAAAAGFujlvdYo4j8Q="
 											},
+											"fillColor": "#fff4f4",
 											"font": "Arial;13;0",
 											"left": 133,
-											"top": 428,
+											"top": 420,
 											"width": 175.9443359375,
 											"height": 13,
-											"text": "+[Concurso.Jogos.qdtMaxima]",
+											"text": "+data de nascimento",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGFykJIFEMfQH8=",
+											"_parent": {
+												"$ref": "AAAAAAGFuixk6YQuLK4="
+											},
+											"model": {
+												"$ref": "AAAAAAGFykJIAUMcpnE="
+											},
+											"fillColor": "#fff4f4",
+											"font": "Arial;13;0",
+											"left": 133,
+											"top": 435,
+											"width": 175.9443359375,
+											"height": 13,
+											"text": "+telemóvel",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGFykJcpEOJ00Q=",
+											"_parent": {
+												"$ref": "AAAAAAGFuixk6YQuLK4="
+											},
+											"model": {
+												"$ref": "AAAAAAGFykJckkOGaI8="
+											},
+											"fillColor": "#fff4f4",
+											"font": "Arial;13;0",
+											"left": 133,
+											"top": 450,
+											"width": 175.9443359375,
+											"height": 13,
+											"text": "+endereço de morada",
 											"horizontalAlignment": 0
 										}
 									],
+									"fillColor": "#fff4f4",
 									"font": "Arial;13;0",
 									"left": 128,
-									"top": 393,
+									"top": 385,
 									"width": 185.9443359375,
-									"height": 53
+									"height": 83
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -718,20 +793,58 @@
 											"model": {
 												"$ref": "AAAAAAGFujoNT4r/81M="
 											},
+											"fillColor": "#fff4f4",
 											"font": "Arial;13;0",
 											"left": 133,
-											"top": 451,
+											"top": 473,
 											"width": 175.9443359375,
 											"height": 13,
-											"text": "+conferirAposta()",
+											"text": "+registo()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGFykNxvESEfFg=",
+											"_parent": {
+												"$ref": "AAAAAAGFuixk6YQv3R4="
+											},
+											"model": {
+												"$ref": "AAAAAAGFykNxskSBPyY="
+											},
+											"fillColor": "#fff4f4",
+											"font": "Arial;13;0",
+											"left": 133,
+											"top": 488,
+											"width": 175.9443359375,
+											"height": 13,
+											"text": "+consultar()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGFykOFMETuujU=",
+											"_parent": {
+												"$ref": "AAAAAAGFuixk6YQv3R4="
+											},
+											"model": {
+												"$ref": "AAAAAAGFykOFJETrBAA="
+											},
+											"fillColor": "#fff4f4",
+											"font": "Arial;13;0",
+											"left": 133,
+											"top": 503,
+											"width": 175.9443359375,
+											"height": 13,
+											"text": "+alterar()",
 											"horizontalAlignment": 0
 										}
 									],
+									"fillColor": "#fff4f4",
 									"font": "Arial;13;0",
 									"left": 128,
-									"top": 446,
+									"top": 468,
 									"width": 185.9443359375,
-									"height": 23
+									"height": 53
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -743,9 +856,10 @@
 										"$ref": "AAAAAAGFuixk6IQmY9g="
 									},
 									"visible": false,
+									"fillColor": "#fff4f4",
 									"font": "Arial;13;0",
 									"left": -16,
-									"top": 40,
+									"top": 32,
 									"width": 10,
 									"height": 10
 								},
@@ -759,19 +873,21 @@
 										"$ref": "AAAAAAGFuixk6IQmY9g="
 									},
 									"visible": false,
+									"fillColor": "#fff4f4",
 									"font": "Arial;13;0",
 									"left": -16,
-									"top": 40,
+									"top": 32,
 									"width": 10,
 									"height": 10
 								}
 							],
+							"fillColor": "#fff4f4",
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 128,
-							"top": 368,
+							"top": 360,
 							"width": 185.9443359375,
-							"height": 120,
+							"height": 161,
 							"nameCompartment": {
 								"$ref": "AAAAAAGFuixk6IQpBpo="
 							},
@@ -815,6 +931,7 @@
 												"$ref": "AAAAAAGFuix8SIRTYSQ="
 											},
 											"visible": false,
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": -16,
 											"top": 16,
@@ -826,12 +943,13 @@
 											"_parent": {
 												"$ref": "AAAAAAGFuix8SIRTYSQ="
 											},
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;1",
 											"left": 509,
 											"top": 319,
 											"width": 224.37060546875,
 											"height": 13,
-											"text": "Prémio"
+											"text": "Gestor de  Negócio"
 										},
 										{
 											"_type": "LabelView",
@@ -840,6 +958,7 @@
 												"$ref": "AAAAAAGFuix8SIRTYSQ="
 											},
 											"visible": false,
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": -16,
 											"top": 16,
@@ -854,6 +973,7 @@
 												"$ref": "AAAAAAGFuix8SIRTYSQ="
 											},
 											"visible": false,
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": -16,
 											"top": 16,
@@ -861,6 +981,7 @@
 											"horizontalAlignment": 1
 										}
 									],
+									"fillColor": "#fff8f8",
 									"font": "Arial;13;0",
 									"left": 504,
 									"top": 312,
@@ -898,12 +1019,13 @@
 											"model": {
 												"$ref": "AAAAAAGFuiz6x4R7hO8="
 											},
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 342,
 											"width": 224.37060546875,
 											"height": 13,
-											"text": "+chaveApostada",
+											"text": "+data de início",
 											"horizontalAlignment": 0
 										},
 										{
@@ -915,12 +1037,13 @@
 											"model": {
 												"$ref": "AAAAAAGFui3gEISCRr4="
 											},
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 357,
 											"width": 224.37060546875,
 											"height": 13,
-											"text": "+valorPremio",
+											"text": "+data de fim",
 											"horizontalAlignment": 0
 										},
 										{
@@ -932,12 +1055,13 @@
 											"model": {
 												"$ref": "AAAAAAGFui4gP4SJJJg="
 											},
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 372,
 											"width": 224.37060546875,
 											"height": 13,
-											"text": "+acumulado",
+											"text": "+horário",
 											"horizontalAlignment": 0
 										},
 										{
@@ -949,12 +1073,13 @@
 											"model": {
 												"$ref": "AAAAAAGFui5kHoSQ4ms="
 											},
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 387,
 											"width": 224.37060546875,
 											"height": 13,
-											"text": "+chaveSorteada",
+											"text": "+nome do aluno",
 											"horizontalAlignment": 0
 										},
 										{
@@ -966,20 +1091,58 @@
 											"model": {
 												"$ref": "AAAAAAGFui6SxoSXSXo="
 											},
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 402,
 											"width": 224.37060546875,
 											"height": 13,
-											"text": "+[Concurso; Jogos.qdtNumSorteados]",
+											"text": "+telemóvel do professor",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGFykR5E0fKfkg=",
+											"_parent": {
+												"$ref": "AAAAAAGFuix8SIRYMkU="
+											},
+											"model": {
+												"$ref": "AAAAAAGFykR4/EfHJyo="
+											},
+											"fillColor": "#fff8f8",
+											"font": "Arial;13;0",
+											"left": 509,
+											"top": 417,
+											"width": 224.37060546875,
+											"height": 13,
+											"text": "+valor do curso",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGFykSa10g0/mg=",
+											"_parent": {
+												"$ref": "AAAAAAGFuix8SIRYMkU="
+											},
+											"model": {
+												"$ref": "AAAAAAGFykSaxkgxBNQ="
+											},
+											"fillColor": "#fff8f8",
+											"font": "Arial;13;0",
+											"left": 509,
+											"top": 432,
+											"width": 224.37060546875,
+											"height": 13,
+											"text": "+total de valor - financeiro",
 											"horizontalAlignment": 0
 										}
 									],
+									"fillColor": "#fff8f8",
 									"font": "Arial;13;0",
 									"left": 504,
 									"top": 337,
 									"width": 234.37060546875,
-									"height": 83
+									"height": 113
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1000,20 +1163,58 @@
 											"model": {
 												"$ref": "AAAAAAGFui/BgISeWLw="
 											},
+											"fillColor": "#fff8f8",
 											"font": "Arial;13;0",
 											"left": 509,
-											"top": 425,
+											"top": 455,
 											"width": 224.37060546875,
 											"height": 13,
-											"text": "+calcularResultado()",
+											"text": "+registar()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGFykU6eklKVWk=",
+											"_parent": {
+												"$ref": "AAAAAAGFuix8SIRZP/c="
+											},
+											"model": {
+												"$ref": "AAAAAAGFykU6aElHZMU="
+											},
+											"fillColor": "#fff8f8",
+											"font": "Arial;13;0",
+											"left": 509,
+											"top": 470,
+											"width": 224.37060546875,
+											"height": 13,
+											"text": "+consultar()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGFykVKVUm0IB4=",
+											"_parent": {
+												"$ref": "AAAAAAGFuix8SIRZP/c="
+											},
+											"model": {
+												"$ref": "AAAAAAGFykVKSkmxbJg="
+											},
+											"fillColor": "#fff8f8",
+											"font": "Arial;13;0",
+											"left": 509,
+											"top": 485,
+											"width": 224.37060546875,
+											"height": 13,
+											"text": "+alterar()",
 											"horizontalAlignment": 0
 										}
 									],
+									"fillColor": "#fff8f8",
 									"font": "Arial;13;0",
 									"left": 504,
-									"top": 420,
+									"top": 450,
 									"width": 234.37060546875,
-									"height": 23
+									"height": 53
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -1025,6 +1226,7 @@
 										"$ref": "AAAAAAGFuix8SIRQZsg="
 									},
 									"visible": false,
+									"fillColor": "#fff8f8",
 									"font": "Arial;13;0",
 									"left": -8,
 									"top": 8,
@@ -1041,6 +1243,7 @@
 										"$ref": "AAAAAAGFuix8SIRQZsg="
 									},
 									"visible": false,
+									"fillColor": "#fff8f8",
 									"font": "Arial;13;0",
 									"left": -8,
 									"top": 8,
@@ -1048,12 +1251,13 @@
 									"height": 10
 								}
 							],
+							"fillColor": "#fff8f8",
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 504,
 							"top": 312,
 							"width": 234.37060546875,
-							"height": 131,
+							"height": 191,
 							"nameCompartment": {
 								"$ref": "AAAAAAGFuix8SIRTYSQ="
 							},
@@ -1092,7 +1296,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 605,
-									"top": 261,
+									"top": 266,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1113,7 +1317,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 590,
-									"top": 261,
+									"top": 266,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1134,7 +1338,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 634,
-									"top": 262,
+									"top": 267,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1219,7 +1423,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 605,
-									"top": 244,
+									"top": 255,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -1239,7 +1443,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 591,
-									"top": 247,
+									"top": 258,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -1259,7 +1463,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 632,
-									"top": 240,
+									"top": 251,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -1304,7 +1508,7 @@
 								"$ref": "AAAAAAGFuix8SIRSBps="
 							},
 							"lineStyle": 1,
-							"points": "620:311;620:225",
+							"points": "620:311;620:236",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGFujQo14U5cLc="
@@ -1405,7 +1609,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 399,
-									"top": 154,
+									"top": 155,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1426,7 +1630,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 492,
-									"top": 184,
+									"top": 185,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -1447,7 +1651,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 490,
-									"top": 198,
+									"top": 199,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -1467,7 +1671,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 488,
-									"top": 157,
+									"top": 158,
 									"width": 19.5126953125,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -1575,7 +1779,7 @@
 								"$ref": "AAAAAAGFuiqnkoPYZak="
 							},
 							"lineStyle": 1,
-							"points": "519:176;280:175",
+							"points": "519:177;280:175",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGFujSyr4YfyAo="
@@ -1633,8 +1837,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 420,
-									"top": 277,
+									"left": 413,
+									"top": 288,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1654,8 +1858,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 412,
-									"top": 264,
+									"left": 405,
+									"top": 275,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1675,8 +1879,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 435,
-									"top": 302,
+									"left": 430,
+									"top": 313,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1696,8 +1900,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 328,
-									"top": 335,
+									"left": 327,
+									"top": 345,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -1718,7 +1922,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 322,
-									"top": 323,
+									"top": 332,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -1738,7 +1942,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 329,
-									"top": 361,
+									"top": 370,
 									"width": 19.5126953125,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -1760,8 +1964,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 512,
-									"top": 220,
+									"left": 500,
+									"top": 231,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -1780,8 +1984,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 503,
-									"top": 210,
+									"left": 490,
+									"top": 221,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -1799,8 +2003,8 @@
 										"$ref": "AAAAAAGFujpdH4w0J5I="
 									},
 									"font": "Arial;13;0",
-									"left": 521,
-									"top": 241,
+									"left": 509,
+									"top": 252,
 									"width": 19.5126953125,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -1847,7 +2051,7 @@
 								"$ref": "AAAAAAGFuixk6IQoF68="
 							},
 							"lineStyle": 1,
-							"points": "314:368;542:225",
+							"points": "314:378;530:236",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGFujpdH4w3f/8="
@@ -1892,7 +2096,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Jogos",
+					"name": "Central de Matrícula",
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
@@ -1900,8 +2104,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuiKX8IN7m50="
 							},
-							"name": "nome",
-							"type": ""
+							"name": "´data da matricula"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1909,8 +2112,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuiKX8IN7m50="
 							},
-							"name": "qtdMinimaAposta",
-							"type": ""
+							"name": "valor a pagar"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1918,8 +2120,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuiKX8IN7m50="
 							},
-							"name": "qtdMaximaAposta",
-							"type": ""
+							"name": "nome do aluno"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1927,26 +2128,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuiKX8IN7m50="
 							},
-							"name": "qtdNumerosSorteados",
-							"type": ""
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAGFuiUL74PBNMs=",
-							"_parent": {
-								"$ref": "AAAAAAGFuiKX8IN7m50="
-							},
-							"name": "minimoAcertos",
-							"type": ""
-						},
-						{
-							"_type": "UMLAttribute",
-							"_id": "AAAAAAGFuiU+uIPI7NA=",
-							"_parent": {
-								"$ref": "AAAAAAGFuiKX8IN7m50="
-							},
-							"name": "maximoAcertos",
-							"type": ""
+							"name": "turma  do aluno"
 						}
 					],
 					"operations": [
@@ -1956,7 +2138,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuiKX8IN7m50="
 							},
-							"name": "registarJogo"
+							"name": "registar"
 						}
 					]
 				},
@@ -1966,7 +2148,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Concurso",
+					"name": "Gestor do Curso",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -2033,8 +2215,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuiqnkoPWiJI="
 							},
-							"name": "numeroConcurso",
-							"type": ""
+							"name": "horário e tempo do curso"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2042,8 +2223,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuiqnkoPWiJI="
 							},
-							"name": "data",
-							"type": ""
+							"name": "valor do curso"
 						}
 					],
 					"operations": [
@@ -2054,6 +2234,22 @@
 								"$ref": "AAAAAAGFuiqnkoPWiJI="
 							},
 							"name": "registo"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGFykG0xUDC8sg=",
+							"_parent": {
+								"$ref": "AAAAAAGFuiqnkoPWiJI="
+							},
+							"name": "consultar"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGFykHM5EEsCqk=",
+							"_parent": {
+								"$ref": "AAAAAAGFuiqnkoPWiJI="
+							},
+							"name": "alterar"
 						}
 					]
 				},
@@ -2063,7 +2259,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Apostas",
+					"name": "Gestor do  Aluno",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -2102,8 +2298,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuixk6IQmY9g="
 							},
-							"name": "numerosApostados",
-							"type": ""
+							"name": "nome do aluno"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2111,8 +2306,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuixk6IQmY9g="
 							},
-							"name": "[Concurso.Jogos.qdtMinima]",
-							"type": ""
+							"name": "nif do aluno"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2120,8 +2314,23 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuixk6IQmY9g="
 							},
-							"name": "[Concurso.Jogos.qdtMaxima]",
-							"type": ""
+							"name": "data de nascimento"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGFykJIAUMcpnE=",
+							"_parent": {
+								"$ref": "AAAAAAGFuixk6IQmY9g="
+							},
+							"name": "telemóvel"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGFykJckkOGaI8=",
+							"_parent": {
+								"$ref": "AAAAAAGFuixk6IQmY9g="
+							},
+							"name": "endereço de morada"
 						}
 					],
 					"operations": [
@@ -2131,7 +2340,23 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuixk6IQmY9g="
 							},
-							"name": "conferirAposta"
+							"name": "registo"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGFykNxskSBPyY=",
+							"_parent": {
+								"$ref": "AAAAAAGFuixk6IQmY9g="
+							},
+							"name": "consultar"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGFykOFJETrBAA=",
+							"_parent": {
+								"$ref": "AAAAAAGFuixk6IQmY9g="
+							},
+							"name": "alterar"
 						}
 					]
 				},
@@ -2141,7 +2366,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Prémio",
+					"name": "Gestor de  Negócio",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -2180,8 +2405,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuix8SIRQZsg="
 							},
-							"name": "chaveApostada",
-							"type": ""
+							"name": "data de início"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2189,8 +2413,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuix8SIRQZsg="
 							},
-							"name": "valorPremio",
-							"type": ""
+							"name": "data de fim"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2198,8 +2421,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuix8SIRQZsg="
 							},
-							"name": "acumulado",
-							"type": ""
+							"name": "horário"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2207,8 +2429,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuix8SIRQZsg="
 							},
-							"name": "chaveSorteada",
-							"type": ""
+							"name": "nome do aluno"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2216,8 +2437,23 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuix8SIRQZsg="
 							},
-							"name": "[Concurso; Jogos.qdtNumSorteados]",
-							"type": ""
+							"name": "telemóvel do professor"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGFykR4/EfHJyo=",
+							"_parent": {
+								"$ref": "AAAAAAGFuix8SIRQZsg="
+							},
+							"name": "valor do curso"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGFykSaxkgxBNQ=",
+							"_parent": {
+								"$ref": "AAAAAAGFuix8SIRQZsg="
+							},
+							"name": "total de valor - financeiro"
 						}
 					],
 					"operations": [
@@ -2227,7 +2463,23 @@
 							"_parent": {
 								"$ref": "AAAAAAGFuix8SIRQZsg="
 							},
-							"name": "calcularResultado"
+							"name": "registar"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGFykU6aElHZMU=",
+							"_parent": {
+								"$ref": "AAAAAAGFuix8SIRQZsg="
+							},
+							"name": "consultar"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGFykVKSkmxbJg=",
+							"_parent": {
+								"$ref": "AAAAAAGFuix8SIRQZsg="
+							},
+							"name": "alterar"
 						}
 					]
 				}
@@ -12756,7 +13008,7 @@
 									"font": "Arial;13;0",
 									"left": 195.5,
 									"top": 82.5,
-									"width": 131.36083984375,
+									"width": 130,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGFxPitww5lhfM="
@@ -13360,7 +13612,7 @@
 									"font": "Arial;13;0",
 									"left": 641,
 									"top": 81.5,
-									"width": 119.814453125,
+									"width": 119,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGFxPx/mA7BgVs="
@@ -14183,7 +14435,7 @@
 									"font": "Arial;13;0",
 									"left": 327,
 									"top": 324.5,
-									"width": 109.6708984375,
+									"width": 109,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGFxP14XBa8+88="
