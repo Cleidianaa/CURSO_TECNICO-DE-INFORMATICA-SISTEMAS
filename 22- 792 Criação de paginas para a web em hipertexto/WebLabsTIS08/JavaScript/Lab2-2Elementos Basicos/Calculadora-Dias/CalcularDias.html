@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Venda de Produto</title>
+    <link rel="stylesheet" href="CalcularDias.css" type="text/css">
+    <script src="CalcularDias.js" defer></script>
+</head>
+<body>
+    <!--
+        Alterado a partir do modelo em 
+        https://colorlib.com/wp/template/colorlib-contact-form/ 
+    -->
+    <div class="container">  
+        <form id="contact" action="">
+            <h3>Calculadora de Dias</h3>
+            <h4>Preencha os seguintes campos</h4>
+            <fieldset>
+                <label >Date Inicial: </label> 
+                <input  id="date_ini" type="date"> <br>
+            </fieldset>
+            <fieldset>
+                <label >Date Final: </label> 
+                <input id="date_end" type="date"> <br>
+            </fieldset>
+            <fieldset>
+                <div id="totalPanel" class="outputPanel"></div>
+            </fieldset>
+            <fieldset>
+                <button type="button" onclick="countDays()">Calcular</button>
+            </fieldset>
+            <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+        </form>
+    </div>
+</body>
+</html>
+

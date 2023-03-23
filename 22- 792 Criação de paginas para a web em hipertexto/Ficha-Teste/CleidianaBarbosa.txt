@@ -1,0 +1,121 @@
+NOME: CLEIDIANA BARBOSA
+TURMA: TISIST-08
+DATA: 17/10/2022
+
+$$$$$$$ FICHA 1 - RESPOSTAS $$$$$$$
+
+1)
+A
+----
+2)
+D
+----
+3)
+C
+----
+4)
+C
+----
+5)
+:nth-child(even) 
+----
+6)
+a
+----
+7)
+d,f
+----
+8)
+body{
+    font-size: 200%;
+    color: #4a4a4a;
+    backgroud-color: #f9f9f9;
+}
+.caixa{
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+    height: 200px;
+}
+.item{
+    backgroud-color: crimson;
+    color: goldenrod;
+    width: 100px;
+}
+----
+9)
+c
+----
+10)
+d
+----
+11)
+d
+----
+12)
+b
+----
+13)
+d
+----
+14)
+d
+----
+15)
+c
+----
+16a)
+x = 4
+y = 4
+----
+16b)
+ck = 4
+----
+16c)
+il = 2
+----
+16d)
+p = ['ABC','DEF','GHI']
+----
+16e)
+f = 22
+----
+16f)
+x = a
+Y = l
+resto= BERTO
+
+----
+17a)
+[14, 15, 16]
+----
+17b)
+[14, 15]
+----
+17c)
+[12, 13, 14, 15, 16, 17, 18]
+----
+17d)
+k = 15
+w =
+----
+18a)
+12, {nome: 'Ana', idad:23}
+----
+18b)
+19, 20, 21
+----
+18c)
+
+----
+19)
+function somaAte(N){
+    var resultado = 0;
+    if(N > 0){
+        for {let i = 0; i <= N; i++}{
+            resultado += i;
+        }
+    }
+    return resultado;
+}
+----

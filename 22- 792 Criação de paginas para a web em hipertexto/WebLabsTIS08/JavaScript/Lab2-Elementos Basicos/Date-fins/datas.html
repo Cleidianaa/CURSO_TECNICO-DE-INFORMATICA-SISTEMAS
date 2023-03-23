@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        https://javascript.info/modules-intro
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+        https://jsfiddle.net/1cazpb5t/    exemplo com date-fns
+    -->
+    <script src="calcula_iva.js"></script>
+
+    <script type="module">
+        import {format, differenceInDays, differenceInCalendarDays, addDays} from 'https://esm.run/date-fns';
+        const dataActual = document.getElementById('data-actual');
+        dataActual.innerHTML = format(new Date(), "dd 'do' MM 'de' yyyy");
+
+        let dateFns = {};
+        dateFns.format = format;
+        dateFns.differenceInDays = differenceInDays;
+        dateFns.differenceInCalendarDays = differenceInCalendarDays;
+        dateFns.addDays = addDays;
+
+        window.dateFns = dateFns;
+
+        // OUTRO EXEMPLO
+        // import { compareAsc, format } from 'https://esm.run/date-fns';
+        // console.log(format(new Date(2014, 1, 11), 'yyyy-MM-dd'));
+        // const dates = [
+        //     new Date(1995, 6, 2),
+        //     new Date(1987, 1, 11),
+        //     new Date(1989, 6, 10),
+        // ];
+        // console.log(dates.sort(compareAsc));
+
+    </script>
+    <title>date-fns</title>
+</head>
+<body>
+    <h1>Documento para carregar date_fns para o navegador</h1>
+    <p>Data actual é: <strong id="data-actual"></strong></p>
+</body>
+</html>
