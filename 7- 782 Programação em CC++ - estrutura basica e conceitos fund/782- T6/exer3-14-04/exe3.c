@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c9ad4c95ec7c92d23d647b2c4f98a9493911b480256800a4279d2b7191e9b4d6
-size 492
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+/* Exercício3 Elabore  um  programa que leia a idade do pai e a idade do filho.
+Calcular  e  escrever a  diferença  de idade entre ambos.*/
+
+ main(){
+     setlocale(LC_ALL, "Portuguese");
+     int pai, filho, idade;
+     printf("\n Qual a idade do pai? ");
+     scanf("%i", &pai);
+     printf("\n Qual a idade do filho? ");
+     scanf("%i", &filho);
+
+     idade=pai-filho;
+
+     printf("\n A diferença idade é: %i anos", idade);
+
+}

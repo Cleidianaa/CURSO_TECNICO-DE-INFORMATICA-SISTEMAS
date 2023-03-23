@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:91b37d1681fdf370cbfc6c295b69e05185a060cbe55fad662a5fd3570049e9ff
-size 1108
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "785-App03", "785-App03\785-App03.csproj", "{8D5CB7FC-AAE4-403C-8FF0-50E89E186DDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D5CB7FC-AAE4-403C-8FF0-50E89E186DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5CB7FC-AAE4-403C-8FF0-50E89E186DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5CB7FC-AAE4-403C-8FF0-50E89E186DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5CB7FC-AAE4-403C-8FF0-50E89E186DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D144031A-800F-4273-9F44-163CAFE6C6E5}
+	EndGlobalSection
+EndGlobal

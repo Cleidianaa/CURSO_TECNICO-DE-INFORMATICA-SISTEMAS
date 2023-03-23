@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:816ee1def3df4e37ad1d3307e3eec581f3a0afc4825cf0170bbbf7cb76892c46
-size 619
+#include<stdio.h>
+#include<locale.h>
+#include<stdlib.h>
+#include<time.h> //para função time()
+/*Exercício3
+Eis um exemplo para gerar um número aleatório entre 0 e 15:
+main () {
+srand(time(NULL));
+int a=(rand()%15);
+printf("%i",a);}
+Faça  um  programa  que  gere  e mostre números aleatórios entre  0  (zero)  e  15.
+ O programadeve gerar números até que o número 0 (zero) seja sorteado. */
+
+int main() {
+    setlocale(LC_ALL,"Portuguese");
+        int num;
+        printf(" Gerando números de 0 á  15: \n");
+        srand(time(NULL));
+        for(num!=0; num<16;num++){
+            printf("%d ", rand() % 16);
+    }
+
+}

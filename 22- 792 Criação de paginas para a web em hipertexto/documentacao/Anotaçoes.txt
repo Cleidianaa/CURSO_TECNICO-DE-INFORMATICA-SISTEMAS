@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:88d0698b7c3bda4d8503a903863feb065a6d66001536806a1cd32147b7b3dc7d
-size 239
+
+// explicação da aula de 792-Criação de Páginas para a Web
+
+
+
+HTML é o pai do HEAD e do BODY , já o P e filho do BODY
+
+
+elementos não vazio : elementos com descendentes e , portanto , com etiquetas(tags) de abertura e de fecho. 
+

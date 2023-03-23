@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b5974b77d16186b7d4e65d16478bf527e04ab3e80ed07f6d4076390ac28ac6a7
-size 390
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+/*Exercício 2
+Crie um programa que escreva no ecrã os números de 1 a 100 e os respetivos quadrados. O resultado
+do programa deve ser:
+Saída:
+1 1
+2 4
+3 9
+4 16
+5 …
+...
+100 10000 */
+
+int main(){
+    setlocale(LC_ALL, "Portuguese");
+    float num=1;
+    while (num<=100){
+    printf("\n %.0f\t%.0f",num,pow(num,2));
+    num++;
+    }
+}

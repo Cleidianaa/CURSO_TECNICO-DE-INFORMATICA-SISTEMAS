@@ -1,3 +1,48 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:44535d36771f0373f30600786d301c2ea9bb532d1f39d5414f72e675a7a3752c
-size 874
+//comandos ;
+0 DISKPART 
+1 format
+2 break
+3 break disk 2
+4 list volume
+5 add disk 1
+6 create volume raid
+7 select disk 3
+8 delete disk
+9 clean //apaga tudo 
+10 extend size 500 disk 1 
+11 diskpart
+select 
+* selecionar o disco e converte para dinâmico 
+
+DISKPART
+
+Disco 1 - select disk1format
+ 1- convert dynamic
+ 2- create volume  simple size 1400
+ 3- assign letter G
+ 4- format fs=fat32 quick
+ 5- create volume simple size 600
+ 6- assign letter 0
+ 7- format fs=ntfs quick
+ 8- list volume  o //verificar o que ja foi feito. 
+
+ítem 3 expandir para o Disco 2 
+
+1- extend size 800 disk 2 
+
+2- list volume
+
+//criar um mirror
+
+create volume mirror size 800 disk 1,2
+
+assign letter P
+format fs=ntfs quick
+list volume
+
+//mirror criado com sucesso.
+
+//parar criar volume precisa converter  o disco para dinâmico 
+//área gráfica 
+//criar primeira  expandidas depois as logicas 
+

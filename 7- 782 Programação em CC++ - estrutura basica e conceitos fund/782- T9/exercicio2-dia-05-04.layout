@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:227ae39037bdf33cdaaf4a975b835c068c4320799c43b71a1b99a486d60110dd
-size 83
+[Editors]
+Order=
+Focused=0
+[Editor_0]
+CursorCol=1
+CursorRow=1
+TopLine=1
+LeftChar=1

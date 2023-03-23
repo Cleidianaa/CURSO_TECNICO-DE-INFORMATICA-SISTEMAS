@@ -1,0 +1,11 @@
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_aleatorio\0785_aleatorio\bin\Debug\0785_aleatorio.exe.config
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_aleatorio\0785_aleatorio\bin\Debug\0785_aleatorio.exe
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_aleatorio\0785_aleatorio\bin\Debug\0785_aleatorio.pdb
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_aleatorio\0785_aleatorio\obj\Debug\0785_aleatorio.csproj.AssemblyReference.cache
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_aleatorio\0785_aleatorio\obj\Debug\0785_aleatorio.csproj.SuggestedBindingRedirects.cache
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_aleatorio\0785_aleatorio\obj\Debug\_0785_aleatorio.Form1.resources
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_aleatorio\0785_aleatorio\obj\Debug\_0785_aleatorio.Properties.Resources.resources
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_aleatorio\0785_aleatorio\obj\Debug\0785_aleatorio.csproj.GenerateResource.cache
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_aleatorio\0785_aleatorio\obj\Debug\0785_aleatorio.csproj.CoreCompileInputs.cache
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_aleatorio\0785_aleatorio\obj\Debug\0785_aleatorio.exe
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_aleatorio\0785_aleatorio\obj\Debug\0785_aleatorio.pdb

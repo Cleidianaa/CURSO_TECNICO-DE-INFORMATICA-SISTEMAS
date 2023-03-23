@@ -1,3 +1,59 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6d7a68cc11b2a514d642cf95d262e58e4001d94ee4e7b16df61cce1392752a4e
-size 823
+// Anotações da aula dia 27-07-2022 UFDC-976
+
+
+CREATE DATABASE 
+Editoras
+
+
+CREATE TABLE
+IDEditora int PRIMARY KEY, NomeEditora varchar(50)
+();
+
+
+ALTER TABLE musicasautores.dadosautores ADD editoras INT;
+
+
+ALTER TABLE musicasautores.Editoras
+ADD FOREIGN KEY(Editora) REFERENCES musicasautores(IDeditora);
+
+
+ALTER TABLE musicasautores.dadosautores
+ADD FOREIGN KEY(Editora) REFERENCES editoras(IDeditora)
+
+
+
+//////////
+CREATE TABLE musicasautores.Editoras
+
+(
+
+IDEditora int PRIMARY KEY,
+
+NomeEditora varchar(50)
+
+)
+
+
+
+ALTER TABLE musicasautores.dadosautores
+
+ADD Editora INT
+
+
+
+ALTER TABLE musicasautores.dadosautores
+
+ADD FOREIGN KEY(Editora) REFERENCES editoras(IDEditora)
+
+///////
+
+
+
+CREATE TABLE musicasautores.concertos(
+	IDConcerto int PRIMARY KEY,
+	Ano int, 
+	Nome varchar(100) NOT NULL, 
+   	Autor varchar(100)
+);
+
+

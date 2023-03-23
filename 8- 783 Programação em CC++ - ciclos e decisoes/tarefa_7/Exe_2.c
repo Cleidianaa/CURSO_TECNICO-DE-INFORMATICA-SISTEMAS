@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0e616e25502dc5fe01d71c24592bfb3647b950c8d6bd6ed76ef5bc474a3c776c
-size 571
+#include<stdio.h>
+#include<locale.h>
+#include<stdlib.h>
+
+/*
+Exercício 2
+Faça  um  programa  que  solicite  ao utilizador um  valor  positivo.
+O  programa deverá repetir a solicitação caso o utilizador forneça um valor inválido (negativo).
+Quando o utilizador fornecer um valor válido, mostre uma mensagem de texto confirmando o valor digitado.
+  */
+
+int main() {
+    setlocale(LC_ALL,"Portuguese");
+    int num= 0;
+    do{
+       printf(" Por favor digite um número positivo: \n");
+       scanf("%i",&num);
+    }
+	while(num< 0);
+    printf("Valor Válido: %i \n", num);
+}

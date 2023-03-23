@@ -1,3 +1,32 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c664db337f7258d17186442981f2d957c59a5fc147b688648019b7d4d6263d9a
-size 657
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+/*
+Exercício 2
+Crie uma função em C, do tipo void, que receba um caracter. Valida se é F/f ou M/m e escreve
+feminino ou masculino ou inválido.*/
+
+int main(){
+    setlocale(LC_ALL,"");
+    char sexo;
+    printf("Escreva (M)Masculino OU (F)Feminino:");
+	scanf("%s", &sexo);
+	ValidarSexo(sexo);
+}
+void ValidarSexo(char sexo){
+    switch(sexo){
+        case'M':
+        case 'm':
+            printf("Masculino");
+            break;
+        case'F':
+        case'f':
+            printf("Feminino");
+            break;
+        default:
+            printf("Sexo Inválido!!");
+            break;
+    }
+}
+
+

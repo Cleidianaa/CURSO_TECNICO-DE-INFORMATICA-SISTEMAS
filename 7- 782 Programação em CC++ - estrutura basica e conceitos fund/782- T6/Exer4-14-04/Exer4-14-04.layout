@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:47e31aa4bf52c8678d4ca28c6149b7728a53775c85a84129cbb57e5c26f54c84
-size 356
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="750" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

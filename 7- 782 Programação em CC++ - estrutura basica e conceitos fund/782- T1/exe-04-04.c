@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e0810392c088265aa0d3bc8da4bc8d243947901dec6eadd1059a8dbb435c0922
-size 382
+#include <stdio.h>
+#include <stdlib.h>
+
+
+main() {
+	float precoanterior, precoatual, inflacao;
+	printf(" Por favor digite o preco do artigo anterior \n");
+	scanf(" %f ", &precoanterior);
+	printf(" Por favor digite o preco do artigo atual \n");
+	scanf(" %f ", &precoatual);
+	
+	inflacao=((precoanterior-precoatual)/precoanterior)*100;
+	
+	printf( " O valor dos dois artigos \n");
+	
+	
+
+}

@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:47bf485f93e441aff4957dc722cd20f759333cb51fd4ded77a4322a597c44377
-size 121
+{
+	"folders": [
+        {
+            "path": "."
+        }
+    ]
+    "settings": {
+        "editor.fontSize": 24
+    }
+}

@@ -1,0 +1,11 @@
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_APP_2\0785_APP_2\bin\Debug\0785_APP_2.exe.config
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_APP_2\0785_APP_2\bin\Debug\0785_APP_2.exe
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_APP_2\0785_APP_2\bin\Debug\0785_APP_2.pdb
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_APP_2\0785_APP_2\obj\Debug\0785_APP_2.csproj.AssemblyReference.cache
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_APP_2\0785_APP_2\obj\Debug\0785_APP_2.csproj.SuggestedBindingRedirects.cache
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_APP_2\0785_APP_2\obj\Debug\_0785_APP_2.Form1.resources
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_APP_2\0785_APP_2\obj\Debug\_0785_APP_2.Properties.Resources.resources
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_APP_2\0785_APP_2\obj\Debug\0785_APP_2.csproj.GenerateResource.cache
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_APP_2\0785_APP_2\obj\Debug\0785_APP_2.csproj.CoreCompileInputs.cache
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_APP_2\0785_APP_2\obj\Debug\0785_APP_2.exe
+E:\Dados_CR\Formacao\IEFP\NST-TISIST08\0785\0785_APP_2\0785_APP_2\obj\Debug\0785_APP_2.pdb

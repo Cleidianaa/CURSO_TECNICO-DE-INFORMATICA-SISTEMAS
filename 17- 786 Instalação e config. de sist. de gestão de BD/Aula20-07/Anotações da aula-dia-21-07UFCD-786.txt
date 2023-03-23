@@ -1,3 +1,52 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:21776951e1eeeb3cc354b712fc4814892283eebc47b4ba0d813ef611863dcaa4
-size 1880
+
+Anotações da UFCD 786- 21-07
+
+ALTER TABLE MusicasAutores.ObrasPrimas 
+CHANGE anoeurovisao dataEurovisoa DATE NULL DEFAULT NULL;
+
+
+// filtra tudo inferior ao mês 6 
+
+SELECT musica,autor,DAYOFMONTH(dataEurovisoa) 
+FROM MusicasAutores.ObrasPrimas
+WHERE MONTH(dataEurovisoa)<6
+
+// filtra tudo entre o mês 
+SELECT musica,autor,DAYOFMONTH(dataEurovisoa) 
+FROM MusicasAutores.ObrasPrimas
+WHERE MONTH(dataEurovisoa)<6 AND MONTH(dataEurovisoa)>1
+
+// maximo e minimo de idade
+SELECT MAX(idade) AS 'Grande maximo' FROM MusicasAutores.ObrasPrimas;
+SELECT MIN(idade) AS 'Grande maximo' FROM MusicasAutores.ObrasPrimas;
+
+//
+
+SELECT MAX(idade) AS 'Grande maximo' FROM MusicasAutores.ObrasPrimas;
+SELECT MIN(idade) AS 'Grande minimo' FROM MusicasAutores.ObrasPrimas;
+SELECT AVG(idade) AS 'Grande media' FROM MusicasAutores.ObrasPrimas;
+SELECT SUM(idade) AS 'Grande soma' FROM MusicasAutores.ObrasPrimas;
+SELECT COUNT(idade) AS 'Grande contagem' FROM MusicasAutores.ObrasPrimas;
+SELECT STDDEV(idade) AS 'Grande desvio padrão' FROM MusicasAutores.ObrasPrimas; 
+
+
+//
+
+SELECT MAX(idade) AS 'Grande maximo' FROM MusicasAutores.ObrasPrimas;
+SELECT MIN(idade) AS 'Grande minimo' FROM MusicasAutores.ObrasPrimas;
+SELECT AVG(idade) AS 'Grande media' FROM MusicasAutores.ObrasPrimas;
+SELECT SUM(idade)/COUNT(idade)-43 AS 'Grande soma/grande contagem' FROM MusicasAutores.ObrasPrimas;
+SELECT COUNT(idade) AS 'Grande contagem' FROM MusicasAutores.ObrasPrimas;
+SELECT STDDEV(idade) AS 'Grande desvio padrão' FROM MusicasAutores.ObrasPrimas;
+
+
+//
+SELECT * FROM MusicasAutores.ObrasPrimas
+WHERE idade<(SELECT SUM(idade)/COUNT(idade)FROM MusicasAutores.ObrasPrimas);
+
+//
+SELECT autor,idade FROM MusicasAutores.ObrasPrimas
+WHERE idade=(SELECT MAX(idade) FROM MusicasAutores.ObrasPrimas );
+
+SELECT autor,idade FROM MusicasAutores.ObrasPrimas
+WHERE idade=(SELECT MIN(idade) FROM MusicasAutores.ObrasPrimas );

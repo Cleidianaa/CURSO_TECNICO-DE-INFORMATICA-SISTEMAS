@@ -1,3 +1,100 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:232b4baac9ac76c2268597cdd289b72be427bbbd14aa3a6fcc544c9f557fee40
-size 3613
+<html>
+<head>
+    <title>Página básica</title>
+
+    <style media="all" title="exemploestilos" type="text/css">
+        /*
+        CSS : Cascading StyleSheets ("Folhas de estilo em cascata")
+
+        Folha de estilos : Conjunto de regras de estilo. Podemos definir 
+        a folha de estilos no próprio documento HTML - folha de estilos INTERNA -
+        ou num documento à parte - folha de estilos EXTERNA. Também podemos 
+        definir estilos na etiqueta de abertura dos elementos HTML, utilizando
+        o atributo STYLE - estilos EMBEBIDOS ou EM LINHA (INLINE).
+
+        Uma folha de estilos INTERNA define-se dentro do elemento STYLE
+        (colocado dentro do HEAD).
+        Uma folha de estilos EXTERNA é "referenciada" pelo elemento LINK.
+
+        Regra de estilo : Conjunto de propriedades CSS e respectivos valores.
+                         Uma regra possui três partes: selector, propriedades
+                         e valores.
+
+        Selector : Indicação dos elementos HTML aos quais a regra deve ser 
+                   aplicada
+
+        Propriedade : Indicação de um estilo a aplicar. 
+                      Exemplos: background-color -> cor de fundo
+                                font-family      -> tipo de letra
+                      As propriedades escrevem-se em letra minúscula, 
+                      várias palavras separadas com hífen.
+
+        Valores : Os valores são específicos de cada propriedade
+        */
+
+        /*
+        REGRA CSS:
+
+            SELECTORES {
+                PROP1: VALOR1;
+                PROP2: VALOR2;
+                ...
+                PROP_N: VALOR_N;
+            }
+        */
+
+        h1, p {
+            color: blue;
+            background-color: violet;
+        }
+        strong {
+            font-style: oblique;
+            background-color: red;
+        }
+        p {
+            font-family: Arial;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>A minha página Web</h1>
+    <h2>Agora, um cabeçalho de nível 2</h2>
+    <h3>Seguido de um outro de nível 3</h3>
+    <h4>Outro, mas de nível 4</h4>
+    <h5>Não há 4 sem 5, já diz o povo</h5>
+    <h6>Mas à 6a é de vez</h6>
+    <h1>Continua a página Web...</h1>
+    <p>
+        Um parágrafo consiste de um bloco de linhas com espaço extra para o 
+        distanciar do próximo parágrafo.
+    </p>
+    <p style="font-family: Courier; font-style: italic;">
+        Aqui está mais um parágrafo. No editor, estes 2 parágrafos estão 
+        colados, mas o navegador exibe-os com (pelo menos) uma linha em 
+        branco de intervalo.
+    </p>
+    <p>
+        Vamos utilizar este <b>parágrafo</b> para conhecer <strong>novos</strong>
+        elementos <br> para dar ênfase a <i>palavras</i> e <em>frases</em>.
+    </p>
+</body>
+</html>
+
+<!--
+Elemento HTML : Objecto com valor semântico para o browser. Isto é, o Elemento
+                "informa" o browser sobre como é que o conteúdo deve ser
+                "interpretado". 
+
+Etiqueta HTML : Notação sintática para indicar onde é que o elemento começa
+                (etiqueta de abertura) e onde termina (etiqueta de fecho).
+                A etiqueta de abertura corresponde ao nome do elemento
+                (em minúsculas) envolvido em '<' e '>'. A etiqueta de fecho
+                corresponde ao nome do elemento envolvido em '</' e '>'.
+
+Elemento Não-Vazio : Elemento com descendentes e, portanto, com etiqueta 
+                     de abertura e de fecho.
+
+Elementos Vazio    : Elemento sem descentes (apenas com etiqueta de abertura).
+                     Exemplos: br, meta, link, etc.
+-->
